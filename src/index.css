@@ -51,6 +51,10 @@ html {
   background-color: var(--second-color);
 }
 
+.nav-bar h3 {
+  font-size: 1.25em;
+}
+
 .content {
   max-width: 70%;
   min-width: 30%;
@@ -74,7 +78,7 @@ html {
 
 #button {
   /* border: var(--third-color) 1px solid; */
-  min-width: 80px;
+  min-width: 60px;
   text-align: center;
 }
 .button-project {
