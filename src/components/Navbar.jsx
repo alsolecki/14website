@@ -1,18 +1,20 @@
 import React from 'react'
+import homeSVG from "./home-icon.svg";
+import maleSVG from "./male-icon.svg";
+import toySVG from "./toy-duck-icon.svg";
 
 const Navbar = () => {
   
   const randomColor = `hsl(${Math.random() * 360}, 100%, 75%)`
-  
   console.log(randomColor);
 
   return (
     <>
       <div className="nav-bar"
-            style={{ backgroundColor: randomColor }}>
+            style={{ backgroundColor: randomColor, }}>
         <div id="button" className="button-home" >
             <a href="https://alsolecki.com/">
-            <img src="public/home-icon.svg" alt="Home Icon" width="20px" height="20px"/></a>
+            <img src={ homeSVG } alt="Home Icon" width="24px" height="24px"/></a>
         </div>
         <div 
           id="button"
@@ -29,11 +31,11 @@ const Navbar = () => {
         </div>
         <div id="button" className="button-home">
             <a href="https://babyouterspace.netlify.app/">
-            <img src="public/toy-duck-icon.svg" alt="Toy Duck Icon" width="20px" height="20px"/></a>
+            <img src={ toySVG } alt="Toy Duck Icon" width="18px" height="18px"/></a>
         </div>
         <div id="button" className="button-home">
             <a href="https://alsolecki.com/">
-            <img src="public/male-icon.svg" alt="Male Icon" width="20px" height="20px"/></a>
+            <img src={ maleSVG } alt="Male Icon" width="24px" height="24px"/></a>
         </div>
       </div>
     </>
