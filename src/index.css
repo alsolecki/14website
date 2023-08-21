@@ -69,6 +69,9 @@ html {
   margin-right: auto;
   width: 300px;
   padding: 120px 0 20px;
+  position: relative;
+  top: 160px;
+  z-index: 0;
 }
 
 .container {
@@ -130,7 +133,7 @@ html {
 }
 
 .footer h3 {
-  margin: 6px 0px 6px;
+  margin: 20px 0px 6px;
 }
 
 
@@ -163,6 +166,22 @@ html {
   margin: 2px;
 }
 
+.contact a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.contact button {
+  height: 48px;
+  width: 120px;
+  border: var(--second-color) 2px solid;
+  border-radius: 4px;
+  background-color: transparent;
+  color: whitesmoke;
+  font-size: 1.0em;
+  align-self: center;
+  margin-top: 20px;
+}
 .namebox a {
   margin: 4px;
   color: whitesmoke;
