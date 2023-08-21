@@ -5,13 +5,13 @@ import toySVG from "./toy-duck-icon.svg";
 
 const Navbar = () => {
   
-  const randomColor = `hsl(${Math.random() * 360}, 100%, 75%)`
-  console.log(randomColor);
+  // const randomColor = `hsl(${Math.random() * 360}, 100%, 75%)`
+  // console.log(randomColor);
 
   return (
     <>
       <div className="nav-bar"
-            style={{ backgroundColor: randomColor, }}>
+            style={{ backgroundColor: 'rgb(30,30,30)' }}>
         <div id="button" className="button-home" >
             <a href="https://alsolecki.com/">
             <img src={ homeSVG } alt="Home Icon" width="24px" height="24px"/></a>

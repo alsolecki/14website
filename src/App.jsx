@@ -1,23 +1,17 @@
 import Navbar from './components/Navbar.jsx'
-import Image from './components/Image.jsx'
 import Footer from './components/Footer.jsx'
 import Hero from './components/Hero.jsx'
-import Textblock from './components/Textblock.jsx'
-import Spacer from './components/Spacer.jsx'
 import Contact from './components/Contact.jsx'
+import Content from './components/Content.jsx'
+import Spacer from './components/Spacer.jsx'
 
 function App() {
 
   return (
     <>
-      <Hero />
       <Navbar />
-      <Image />
-      <Textblock />
-      <Image />
-      <Textblock />
-      <Image />
-      <Textblock />
+      <Hero />
+      <Content />
       <Spacer />
       <Contact />
       <Footer />
