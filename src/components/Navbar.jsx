@@ -34,7 +34,7 @@ const Navbar = () => {
             <img src={ toySVG } alt="Toy Duck Icon" width="18px" height="18px"/></a>
         </div>
         <div id="button" className="button-home">
-            <a href="https://alsolecki.com/">
+            <a href="https://alsolecki.com/index.html#contact">
             <img src={ maleSVG } alt="Male Icon" width="24px" height="24px"/></a>
         </div>
       </div>
