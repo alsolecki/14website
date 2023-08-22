@@ -6,13 +6,13 @@ import Spacer from './Spacer.jsx'
 
 const Content = () => {
   return (
-    <main className="main">
+    <div className="main">
         <ProjectA />
         <Spacer />
         <ProjectB />
         <Spacer />
         <ProjectC /> 
-    </main>
+    </div>
   )
 }
 

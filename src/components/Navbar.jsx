@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       <div className="nav-bar"
-            style={{ backgroundColor: 'rgb(30,30,30)' }}>
+            style={{ backgroundColor: 'transparent' }}>
         <div id="button" className="button-home" >
             <a href="https://alsolecki.com/">
             <img src={ homeSVG } alt="Home Icon" width="24px" height="24px"/></a>

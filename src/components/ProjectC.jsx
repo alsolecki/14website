@@ -1,13 +1,8 @@
 import React from 'react'
-import projectC from '../assets/project1.png'
 
 const ProjectC = () => {
   return (
     <section>
-        <img 
-        className="proj-image" 
-        src={ projectC }
-        />
         <div className="content">
         <h1>3</h1>
         <h2>FoodClock</h2>

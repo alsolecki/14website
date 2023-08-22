@@ -13,6 +13,15 @@ html {
   background: var(--dark-color);
 }
 
+/* 
+********THREE JS CANVAS 
+*/
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 body {
   margin: 0;
 }
@@ -25,12 +34,12 @@ body {
 *     ////////   HERO 
 */
 .hero {
-  background-color: var(--dark-color);
-  min-height: 100vh;
+  background-color: transparent;
   display: flex;
   color: whitesmoke;
   /* border: lightblue solid 2px; */
   padding-top: 15%;
+  padding-bottom: 15%;
   justify-content: center;
 }
 
@@ -54,6 +63,7 @@ body {
   color: whitesmoke;
   font-size: 1.0em;
 }
+
 .namebox {
   display: flex;
   flex-direction: column;
@@ -81,7 +91,9 @@ body {
 }
 
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 200px 600px 500px 500px 500px 500px;
 }
 
 
@@ -95,7 +107,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: var(--second-color);
+  background-color: transparent;
   position: sticky; top: 0
 }
 
@@ -122,6 +134,7 @@ body {
   margin-right: auto;
   color: whitesmoke;
   margin-bottom: -20px;
+  grid-row-start: 5;
 }
 
 .content h1 {
@@ -130,7 +143,7 @@ body {
 
 
 .footer {
-  background-color: var(--dark-color);
+  background-color: transparent;
   min-height: 120px;
   display: block;
   text-align: center;
@@ -152,10 +165,6 @@ body {
   flex-grow: 2;
 }
 
-.Spacer {
-  height: 100px;
-  background-color: var(--dark-color);
-}
 
 .contact {
   width: 100%;
@@ -163,9 +172,10 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: var(--dark-color);
+  background-color: transparent;
   padding-top: 20px;
   color: whitesmoke;
+  grid-row-start: 3;
 }
 
 .contact p {
@@ -194,7 +204,16 @@ body {
   text-decoration: none;
 }
 
-.main {
-  background-color: var(--dark-color);
-}
 
+
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 20px 0px;
+  line-height: 3em;
+}
