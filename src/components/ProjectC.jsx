@@ -16,18 +16,17 @@ const ProjectC = () => {
         <img src={ jsSVG } alt="JS Icon" width="20px" height="20px"/>
         <img src={ reactSVG } alt="React JS Icon" width="20px" height="20px"/>
         </span>
-        <h4>A way to track cravings</h4>
+        <h4>A Way to Track Cravings</h4>
         <p>
-            Lorem sit do proident veniam anim aute commodo nostrud fugiat sunt ipsum. Dolore excepteur laboris cillum commodo id fugiat. Nulla eiusmod fugiat esse do commodo amet ipsum esse in nisi aute voluptate officia. Pariatur pariatur voluptate ut est ipsum enim officia eiusmod.
-        </p>
-        <h4>API and Google Maps</h4>
-        <p>
-
-            Ad duis labore do laborum excepteur aliquip eu laboris ullamco culpa Lorem aliqua. Consequat irure reprehenderit adipisicing sint deserunt irure esse ullamco magna cillum minim consectetur. Voluptate Lorem fugiat voluptate aliquip voluptate.
+          FoodClock is a way to track your favorite foods and keep track of the last time you enjoyed the food and the approximate time needed until you will feel like having it again for maximum enjoyment. I want to incorporate a "meter-like" visual clock element that mimic's the user's craving level. This is still in development. 
         </p>
         <h4>Object Oriented Programming</h4>
         <p>
-          Ullamco mollit cupidatat labore deserunt ipsum occaecat officia anim in. Fugiat eu ipsum ex et nisi quis non ullamco dolore deserunt occaecat. Nostrud cillum mollit nisi consectetur. Laboris dolore minim elit pariatur deserunt nostrud enim amet labore ipsum. Aliqua officia enim enim non exercitation.
+          At the heart of FoodClock is a database of my personal favorite foods. I needed have to understand how information is stored and shared in today's tech world before I could make an app to manipulate it and gain functionality. It was also necessary to learn how to capture information through inputs.
+        </p>
+        <h4>API and Google Maps</h4>
+        <p>
+          Besides the clock functionality, I wanted to include a geographic element. I utilize the google maps API to include where the foods are located.
         </p>
 
 
