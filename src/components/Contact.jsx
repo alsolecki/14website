@@ -9,7 +9,7 @@ const Contact = () => {
         <p>Washington, DC Area</p>
         <a href="mailto:alsolecki@gmail.com"><p>alsolecki@gmail.com</p></a>
         <button>
-        <a href="./assets/Solecki Resume.pdf" download="Solecki Resume">Resume</a>
+        <a href="./Solecki Resume.pdf" download="Solecki Resume">Resume</a>
 </button>
     </div>
   )
