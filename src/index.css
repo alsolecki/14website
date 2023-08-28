@@ -39,7 +39,7 @@ body {
   color: whitesmoke;
   /* border: lightblue solid 2px; */
   padding-top: 15%;
-  padding-bottom: 15%;
+  padding-bottom: 25%;
   justify-content: center;
 }
 
@@ -127,11 +127,13 @@ body {
     filter: invert(.9);
 }
 
+
 .content {
   max-width: 60%;
   min-width: 30%;
-  display: block;
+  /* display: block; */
   padding: 40px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   color: papayawhip;
@@ -232,6 +234,10 @@ body {
 .icons {
   display: flex;
   align-items: center;
+}
+
+.main {
+  display: grid;
 }
 
 main {

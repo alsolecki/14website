@@ -18,18 +18,16 @@ const ProjectC = () => {
         </span>
         <h4>A Way to Track Cravings</h4>
         <p>
-          FoodClock is a way to track your favorite foods and keep track of the last time you enjoyed the food and the approximate time needed until you will feel like having it again for maximum enjoyment. I want to incorporate a "meter-like" visual clock element that mimic's the user's craving level. This is still in development. 
+          "FoodClock" is a way to organize your favorite foods and keep track of how often you have them. The goal of the app is to target the ideal frequency between eating these favorite foods so as to achieve optimal enjoyment. As Epicurus says, "Be moderate in order to enjoy the joys of life in abundance." Each favorite food will include a gauge-like timer element to visually represent the user's craving level.
         </p>
         <h4>Object Oriented Programming</h4>
         <p>
-          At the heart of FoodClock is a database of my personal favorite foods. I needed have to understand how information is stored and shared in today's tech world before I could make an app to manipulate it and gain functionality. It was also necessary to learn how to capture information through inputs.
+          At the heart of "FoodClock" is a database of the user's favorite foods. Before building an app to manipulate this type of information, I needed have to understand how data is stored and shared in digitally. This served as my introduction to object oriented programming and using forms to capture information.
         </p>
         <h4>API and Google Maps</h4>
         <p>
-          Besides the clock functionality, I wanted to include a geographic element. I utilize the google maps API to include where the foods are located.
+          Outside of the main "FoodClock" functionality, I want to include a geographic element. I'm planning to utilize the google maps API to include where the favorite foods are located and perhaps create a custom map.
         </p>
-
-
     </div>
     </section>
   )

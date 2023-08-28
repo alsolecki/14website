@@ -24,11 +24,11 @@ const ProjectB = () => {
         </p>
         <h4>Broad Experiences</h4>
         <p>
-            By working on a wide variety of projects of different sizes I was able to wear many different hats. On various projects I worked with historians, architects, general contractors, media producers, artifact mounters, lighting designers, museum directors and carpenters. As a senior designer, I also trained and directed junior level designers.  
+            By working on a wide variety of projects of different sizes I was able to wear many different hats. I worked directly with historians, architects, general contractors, media producers, artifact mounters, lighting designers, museum directors and carpenters. As a senior designer, I also trained and directed junior level designers.  
         </p>
         <h4>Adding Layers</h4>
         <p>
-            I've started with a gallery of final images from several exhibit projects. I'm using HTML, CSS and JavaScript to create a dynamic presentation. I'd like to add more layers of details into each of these project presentations.
+            I've started with a simple gallery of images from several exhibit projects. I'm using HTML, CSS and JavaScript to create a dynamic presentation. Going forward, I'd like to add more images and layers of details into each of these project presentations.
         </p>
         </div>
     </section>
