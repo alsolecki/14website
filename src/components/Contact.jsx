@@ -8,6 +8,7 @@ const Contact = () => {
         <p>Alex Solecki</p>
         <p>Washington DC Area</p>
         <a href="mailto:alsolecki@gmail.com"><p>alsolecki@gmail.com</p></a>
+        <a href="https://github.com/alsolecki"><p>github.com/alsolecki</p></a>
         <button>
         <a href="./Solecki Resume.pdf" download="Solecki Resume">Resume</a>
 </button>
