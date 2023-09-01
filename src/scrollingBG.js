@@ -68,15 +68,15 @@ const controls = new OrbitControls(camera, renderer.domElement);
 function moveCamera() {
 
   const t = document.body.getBoundingClientRect().top - 1 ;
-  console.log(t);
 
   camera.position.z = t * 0.0075;
   // camera.position.x = t * -0.0002;
   // camera.position.y = t * -0.0002;
+
+  console.log(t);
 }
 
 document.body.onscroll = moveCamera
-
 
 function animate() {
   requestAnimationFrame( animate );

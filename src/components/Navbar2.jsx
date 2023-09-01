@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import toySVG from "./toy-duck-icon.svg";
 import homeSVG from "./home-icon.svg";
-import maleSVG from "./male-icon.svg";
 import './Navbar2.css'
 
 const Navbar2 = () => {
@@ -12,7 +11,7 @@ const Navbar2 = () => {
     <nav>
         <div className="home">
             <a href="https://alsolecki.com/">
-            <img src={ homeSVG } alt="Home Icon" width="24px" height="24px"/></a>
+            <img src={ homeSVG } alt="Home Icon" width="24px" height="20px"/></a>
         </div>
             {/* hamburger */}
             <div className="menu" onClick={() => {
@@ -31,10 +30,6 @@ const Navbar2 = () => {
             <li> 
                 <a href="https://babyouterspace.netlify.app/">
                 <img src={ toySVG } alt="Toy Duck Icon" width="16px" height="16px"/></a>
-            </li>
-            <li>
-                <a href="https://alsolecki.com/index.html#contact">
-                <img src={ maleSVG } alt="Male Icon" width="24px" height="24px"/></a>
             </li>
         </ul>
     </nav>

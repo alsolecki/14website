@@ -3,6 +3,7 @@ import htmlSVG from './html-file-icon.svg'
 import cssSVG from './css-file-icon.svg'
 import jsSVG from './js-file-icon.svg'
 import reactSVG from './react-js-icon.svg'
+import { Link } from 'react-router-dom'
 
 const ProjectC = () => {
   return (
@@ -28,6 +29,7 @@ const ProjectC = () => {
         <p>
           Outside of the main "FoodClock" functionality, I want to include a geographic element. I'm planning to utilize the google maps API to include where the favorite foods are located and perhaps create a custom map.
         </p>
+        <p><Link to="https://foodclock.netlify.app">check it out</Link></p>
     </div>
     </section>
   )

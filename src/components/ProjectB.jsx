@@ -2,6 +2,7 @@ import React from 'react'
 import htmlSVG from './html-file-icon.svg'
 import cssSVG from './css-file-icon.svg'
 import jsSVG from './js-file-icon.svg'
+import { Link } from 'react-router-dom'
 
 const ProjectB = () => {
   return (
@@ -30,6 +31,7 @@ const ProjectB = () => {
             <p>
                 I've started with a simple gallery of images from several exhibit projects. I'm using HTML, CSS and JavaScript to create a dynamic presentation. Going forward, I'd like to add more images and layers of details into each of these project presentations.
             </p>
+            <p><Link to="https://exhibitgallery.netlify.app">check it out</Link></p>
         </div>
     </section>
   )

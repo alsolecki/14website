@@ -59,11 +59,13 @@ nav .menu span {
 
 .home {
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 @media (max-width: 480px) {
     nav .menu {
         display: flex;
+        margin-top: 15px;
     }
 
     nav {

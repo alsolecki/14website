@@ -84,13 +84,17 @@ body {
 
 .footer {
   background-color: transparent;
-  min-height: 120px;
   display: block;
-  text-align: center;
+  min-height: 120px;
   color: rgb(150, 150, 150);
-  padding-top: 4em;
-  margin-bottom: 4em;
+  margin: 8em 2em 4em 2em;
   line-height: 1.25em;
+  width: 360px;
+}
+
+.footer h4 {
+  
+  text-align: center;
 }
 
 
