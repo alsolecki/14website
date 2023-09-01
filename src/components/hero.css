@@ -1,0 +1,81 @@
+/* 
+*     ////////   HERO 
+*/
+
+.hero {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr;
+    color: whitesmoke;
+    padding-top: 20%;
+    padding-bottom: 30%;
+    justify-content: center;
+    /* border: yellow 2px solid; */
+  }
+  
+  .hero h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    line-height: 1.5em;
+  }
+  
+  .headshot {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow:0px 0px 3px rgba(0, 0, 0, 0.5);
+    filter: grayscale(1);
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  .hero p {
+    color: whitesmoke;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5em;
+  }
+
+  .hero button {
+    height: 48px;
+    width: 120px;
+    border: var(--second-color) 2px solid;
+    border-radius: 4px;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 2em;
+  }
+
+  .hero button a {
+    color: whitesmoke;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+  
+
+  @media only screen and (min-width: 769px) {
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+    .headshot {
+        width: 240px;
+        height: 240px;
+        align-self: center;
+    }
+    .hero p {
+      max-width: 440px;
+    }
+  }
