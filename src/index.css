@@ -82,6 +82,11 @@ body {
   margin: 20px 0 20px;
 }
 
+.active {
+  transform: scale(1.1);
+  border: red 1px solid;
+}
+
 .footer {
   background-color: transparent;
   display: block;
@@ -89,7 +94,8 @@ body {
   color: rgb(150, 150, 150);
   margin: 8em 2em 4em 2em;
   line-height: 1.25em;
-  width: 360px;
+  min-width: 360px;
+
 }
 
 .footer h4 {
