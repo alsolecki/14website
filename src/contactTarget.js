@@ -3,7 +3,7 @@
 
 function expandContact(min, max) {
     const el = document.querySelector('.expand');
-    if ( parseInt(window.scrollY) >= 3425 && parseInt(window.scrollY) <= 3475 ) { 
+    if ( parseInt(window.scrollY) >= (min) && parseInt(window.scrollY) <= (max) ) { 
         el.classList.add('active')
     } else if (el.classList.contains('active')) {
         el.classList.remove('active')
@@ -17,7 +17,7 @@ function expandContact(min, max) {
 
 
 window.addEventListener('scroll', () => {
-        expandContact();
+        expandContact(4700, 4800);
     }
 );
 
