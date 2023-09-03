@@ -1,21 +1,19 @@
 import React from 'react'
-import htmlSVG from './html-file-icon.svg'
-import cssSVG from './css-file-icon.svg'
 import { Link } from 'react-router-dom'
 
 const ProjectA = () => {
   return (
     <section>
         <div className="content">
-          <h1>1</h1>
+          <h1>project 1</h1>
+          <h2>SoFoCo Dems</h2>
           <span className="icons">
-            <h2>SoFoCo Dems</h2>
-            <img src={ htmlSVG } alt="HTML Icon" width="20px" height="20px"/>
-            <img src={ cssSVG } alt="CSS Icon" width="20px" height="20px"/>
+            <div><h5>HTML</h5></div>
+            <div><h5>CSS</h5></div>
           </span>
-          <h4>A Neighborhood Flier</h4>
+          <h4>Local Resource Guide</h4>
           <p>
-            In 2020, I designed an 8-1/2 x 11 flier with Adobe Suites for a local Democratic organization called "SoFoCo", which stands for "South Four Corners". The flier was intended to be printed and handed out at elections and events. It is essentially a contact sheet with all the organization's local resources and contact information, plus all currently elected county, state and nationally officials.
+            In 2020, I designed an 8-1/2 x 11 flier with Adobe Suites for a local Democratic organization called "SoFoCo", which stands for "South Four Corners". The flier was intended to be printed and handed out at elections and events. It's essentially a local resource guide, plus all current county, state and national elected officials.
           </p>
           <h4>Bringing the Flier Online</h4>
           <p>

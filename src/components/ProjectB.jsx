@@ -8,12 +8,12 @@ const ProjectB = () => {
   return (
     <section>
         <div className="content">
-            <h1>2</h1>
-            <span className="icons">
+            <h1>project 2</h1>
             <h2>Exhibit Gallery</h2>
-            <img src={ htmlSVG } alt="HTML Icon" width="20px" height="20px"/>
-            <img src={ cssSVG } alt="CSS Icon" width="20px" height="20px"/>
-            <img src={ jsSVG } alt="JS Icon" width="20px" height="20px"/>
+            <span className="icons">
+                <div><h5>HTML</h5></div>
+                <div><h5>CSS</h5></div>
+                <div><h5>JavaScript</h5></div>
             </span>
             <h4>Exhibit Designer Portfolio</h4>
             <p>

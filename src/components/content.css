@@ -1,22 +1,28 @@
 .content {
-    max-width: 900px;
+    max-width: 800px;
     background-color:rgba(0, 0, 0, 0.65);
     margin: auto;
-    padding: 1em;
+    padding: 1.5em;
   }
 
   .content h1 {
-    font-size: 4em;
-    margin: 0.75em 0 0.25em;
-    color: rgb(160, 160, 160);
+    font-size: 3em;
+    margin: 0.75em 0 0.75em;
+    color: rgba(150, 150, 150, 0.4);
   }
   .content h2 {
     font-size: 1.9em;
-    margin: 0.5em 0 0.5em;
+    margin: 0.5em 0 -0.5em;
   }
   .content h4 {
     font-size: 1.25em;
     margin: 0.25em 0 0.25em;
+  }
+  .content h5 {
+    font-weight: 200;
+    margin: 0.25em 0 0.25em;
+    padding-right: 0.75em;
+    color: rgb(150, 150, 150)
   }
   .content p {
     line-height: 1.65em;

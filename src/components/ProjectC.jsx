@@ -9,14 +9,14 @@ const ProjectC = () => {
   return (
     <section>
         <div className="content">
-        <h1>3</h1>
-        <span className="icons">
+        <h1>project 3</h1>
         <h2>FoodClock</h2>
-        <img src={ htmlSVG } alt="HTML Icon" width="20px" height="20px"/>
-        <img src={ cssSVG } alt="CSS Icon" width="20px" height="20px"/>
-        <img src={ jsSVG } alt="JS Icon" width="20px" height="20px"/>
-        <img src={ reactSVG } alt="React JS Icon" width="20px" height="20px"/>
-        </span>
+        <span className="icons">
+            <div><h5>HTML</h5></div>
+            <div><h5>CSS</h5></div>
+            <div><h5>JavaScript</h5></div>
+            <div><h5>ReactJS</h5></div>
+          </span>
         <h4>A Way to Track Cravings</h4>
         <p>
           "FoodClock" is a way to organize your favorite foods and keep track of how often you have them. The goal of the app is to target the ideal frequency between eating these favorite foods so as to achieve optimal enjoyment. As Epicurus says, "Be moderate in order to enjoy the joys of life in abundance." Each favorite food will include a gauge-like timer element to visually represent the user's craving level.
