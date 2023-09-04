@@ -21,6 +21,10 @@
     color: whitesmoke;
     text-decoration: none;
   }
+
+  .contact a:hover {
+    color: green;
+  }
   
   .contact button {
     height: 48px;
@@ -35,6 +39,11 @@
   }
   
   .active {
-    transform: scale(1.1);
-    border: red 1px solid;
+    transform: scale(1.15);
+    box-shadow: 0 0 20px rgba(232, 172, 42, 1);
+    transition: all 0.25s ease;
+  }
+
+  .inactive {
+    transition: all 0.25s ease;
   }

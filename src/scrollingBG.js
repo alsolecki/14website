@@ -5,7 +5,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 const scene = new THREE.Scene();
 
-const camera = new THREE.PerspectiveCamera( 65, window.innerWidth / window.innerHeight, 0.01, 10000)
+const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.01, 10000)
 
 const renderer = new THREE.WebGLRenderer({
   canvas: document.querySelector('#bg'),
@@ -13,9 +13,11 @@ const renderer = new THREE.WebGLRenderer({
 
 renderer.setPixelRatio( window.devicePixelRatio );
 renderer.setSize( window.innerWidth, window.innerHeight );
-// camera.position.setZ(30);
+
+// camera.position.setZ(-15) ;
+
  
-renderer.render( scene, camera );
+
 
 
 const randomColorA = `hsl(${Math.random() * 360}, 100%, 75%)`
@@ -37,7 +39,23 @@ const geometry3 = new THREE.TorusGeometry( 12, 1, 18, 100 )
 const material3 = new THREE.MeshStandardMaterial( { color: randomColorC } );
 const torus3 = new THREE.Mesh( geometry3, material3 );
 
+const geometry4 = new THREE.SphereGeometry( 1, 64, 32 ); 
+const material4 = new THREE.MeshPhongMaterial({ color: 'hsl(0, 0%, 50%)', shininess: 200 })
+const sphere = new THREE.Mesh( geometry4, material4 ); scene.add( sphere );
+
 scene.add(torus, torus2, torus3)
+
+//POINTS OF INTEREST
+
+const points = [
+  {
+    position: new THREE.Vector3( 0, 0, 0),
+    element: document.querySelector('.point-0')
+  }
+]
+
+
+
 
 //LIGHTS
 
@@ -93,4 +111,6 @@ function animate() {
 }
 
 animate();
+
+// Follow Points
 

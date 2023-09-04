@@ -2,31 +2,28 @@
 
 
 function expandContact(min, max) {
-    const el = document.querySelector('.expand');
-    if ( parseInt(window.scrollY) >= (min) && parseInt(window.scrollY) <= (max) ) { 
+    let scrollDepth = parseInt(window.scrollY);
+
+    const el = document.querySelector('.contact');
+    // console.log(el.getBoundingClientRect().top);
+
+    if ( el.getBoundingClientRect().top >= (min) && el.getBoundingClientRect().top <= (max) && el.classList.contains('inactive') ) { 
+        el.classList.remove('inactive');
         el.classList.add('active')
     } else if (el.classList.contains('active')) {
-        el.classList.remove('active')
-    } else {
-        console.log('nope');
-    }; 
+        el.classList.remove('active');
+        el.classList.add('inactive')
+    };
 }
 
 
 
 
 
+
 window.addEventListener('scroll', () => {
-        expandContact(4700, 4800);
+        //375 width
+        expandContact(115, 145);
     }
 );
 
-
-
-// panel1.addEventListener('click', () => {
-//     console.log('p1');
-//     if (panel1.classList.contains('p1-off')) {
-//         panel1.classList.replace('p1-off', 'p1-on')
-//     } else {panel1.classList.replace('p1-on', 'p1-off')
-//    } 
-//   });

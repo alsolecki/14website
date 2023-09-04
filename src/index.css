@@ -37,6 +37,8 @@ canvas {
 body {
   margin: 0;
 }
+
+
 /* //////END THREE JS CANVAS */
 
 
@@ -94,15 +96,4 @@ body {
 
 .footer h4 {
   text-align: center;
-}
-
-
-@media screen and (min-width: 550px) {
-
-.active {
-  transform: scale(1.1);
-  /* border: red 1px solid; */
-  border-radius: 50%;
-}
-
 }

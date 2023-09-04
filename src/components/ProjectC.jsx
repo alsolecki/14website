@@ -11,7 +11,7 @@ const ProjectC = () => {
             <div><h5>HTML</h5></div>
             <div><h5>CSS</h5></div>
             <div><h5>JavaScript</h5></div>
-            <div><h5>React.js</h5></div>
+            <div><h5>React.JS</h5></div>
           </span>
         <h4>A Way to Track Cravings</h4>
         <p>
