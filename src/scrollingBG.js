@@ -114,4 +114,3 @@ function animate() {
 animate();
 
 // Follow Points
-
