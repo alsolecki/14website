@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import toySVG from "./toy-duck-icon.svg";
 import homeSVG from "./home-icon.svg";
@@ -7,14 +7,32 @@ import './Navbar2.css'
 const Navbar2 = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
+    let menuRef = useRef();
+
+    useEffect(() => {
+        let handler = (e) => {
+            if (!menuRef.current.contains(e.target)){
+                setMenuOpen(false);
+            }
+        };
+
+        document.addEventListener("mousedown", handler )
+
+    return() => {
+        document.removeEventListener("mousedown", handler )
+    }
+
+    });
+
   return (
-    <nav>
+
+    <nav ref={ menuRef }>
         <div className="home">
             <a href="https://alsolecki.com/">
             <img src={ homeSVG } alt="Home Icon" width="24px" height="20px"/></a>
         </div>
             {/* hamburger */}
-            <div className="menu" onClick={() => {
+            <div className="menu"  onClick={() => {
                 setMenuOpen(!menuOpen)
             }}>
                 <span></span>
@@ -22,7 +40,7 @@ const Navbar2 = () => {
                 <span></span>
             </div>
 
-        <ul className={ menuOpen ? "open" : ""}>
+        <ul className={ menuOpen ? "open" : "unopen"} >
             <li><Link to="https://sofocoflier.netlify.app">SoFoCoDems</Link></li>
             <li><Link to="https://exhibitgallery.netlify.app">ExhibitGallery</Link></li>
             <li><Link to="https://foodclock.netlify.app">FoodClock</Link></li>
