@@ -23,7 +23,7 @@
   }
 
   .contact a:hover {
-    color: green;
+    color: peachpuff;
   }
   
   .contact button {
@@ -39,11 +39,10 @@
   }
   
   .active {
-    transform: scale(1.15);
     box-shadow: 0 0 20px rgba(232, 172, 42, 1);
-    transition: all 0.25s ease;
+    transition: all 0.2s ease;
   }
 
   .inactive {
-    transition: all 0.25s ease;
+    transition: all 0.2s ease;
   }
