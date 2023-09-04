@@ -40,8 +40,9 @@ const material3 = new THREE.MeshStandardMaterial( { color: randomColorC } );
 const torus3 = new THREE.Mesh( geometry3, material3 );
 
 const geometry4 = new THREE.SphereGeometry( 1, 64, 32 ); 
-const material4 = new THREE.MeshPhongMaterial({ color: 'hsl(0, 0%, 50%)', shininess: 200 })
-const sphere = new THREE.Mesh( geometry4, material4 ); scene.add( sphere );
+const material4 = new THREE.MeshPhongMaterial({ color: 'hsl(0, 0%, 50%,)', shininess: 200 })
+const sphere = new THREE.Mesh( geometry4, material4 ); 
+// scene.add( sphere );
 
 scene.add(torus, torus2, torus3)
 
