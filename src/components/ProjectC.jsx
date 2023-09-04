@@ -1,8 +1,4 @@
 import React from 'react'
-import htmlSVG from './html-file-icon.svg'
-import cssSVG from './css-file-icon.svg'
-import jsSVG from './js-file-icon.svg'
-import reactSVG from './react-js-icon.svg'
 import { Link } from 'react-router-dom'
 
 const ProjectC = () => {
@@ -15,7 +11,7 @@ const ProjectC = () => {
             <div><h5>HTML</h5></div>
             <div><h5>CSS</h5></div>
             <div><h5>JavaScript</h5></div>
-            <div><h5>ReactJS</h5></div>
+            <div><h5>React.js</h5></div>
           </span>
         <h4>A Way to Track Cravings</h4>
         <p>

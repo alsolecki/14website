@@ -1,7 +1,4 @@
 import React from 'react'
-import htmlSVG from './html-file-icon.svg'
-import cssSVG from './css-file-icon.svg'
-import jsSVG from './js-file-icon.svg'
 import { Link } from 'react-router-dom'
 
 const ProjectB = () => {

@@ -20,10 +20,14 @@
   }
   .content h5 {
     font-weight: 200;
-    margin: 0.25em 0 0.25em;
-    padding-right: 0.75em;
-    color: rgb(150, 150, 150)
+    color: rgb(150, 150, 150);
+    border: white solid 0.5px;
+    border-radius: 9%;
+    padding: 0px 6px 0px 6px;
+    line-height: 1.5em;
+    margin: 14px 5px 2px 2px;
   }
+
   .content p {
     line-height: 1.65em;
     font-size: 1em;
