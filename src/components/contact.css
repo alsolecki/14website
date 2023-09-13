@@ -1,18 +1,17 @@
 /* CONTACT FIELD */
 
 .contact {
-    width: 270px;
-    height: 270px;
+    max-width: 800px;
+    width: 100vw;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.65);
     color: whitesmoke;
-    margin: auto;
-    margin-top: 80px;
-    border-radius: 50%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
   }
   
   .contact p a {
@@ -38,11 +37,11 @@
     margin: 10px 0 10px;
   }
   
-  .active {
+  /* .active {
     box-shadow: 0 0 20px rgba(232, 172, 42, 1);
     transition: all 0.2s ease;
   }
 
   .inactive {
     transition: all 0.2s ease;
-  }
+  } */

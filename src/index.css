@@ -86,12 +86,16 @@ body {
 
 
 .footer {
-  background-color: transparent;
   display: block;
   min-height: 120px;
   color: rgb(150, 150, 150);
-  margin: 8em 2em 4em 2em;
+  margin: 0 auto;
+  padding: 8rem;
   line-height: 1.25em;
+  max-width: 800px;
+  width: 100vw;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 .footer h4 {
