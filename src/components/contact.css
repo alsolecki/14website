@@ -1,20 +1,32 @@
+:root {
+  --grey-color: rgb(150, 150, 150);
+}
 /* CONTACT FIELD */
 
 .contact {
-    max-width: 800px;
-    width: 100vw;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.65);
-    color: whitesmoke;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 12rem;
-    padding-bottom: 8rem;
-  }
-  
-  .contact p a {
+  max-width: 800px;
+  width: 100vw;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: whitesmoke;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 12rem;
+  padding-bottom: 8rem;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 1.35rem;
+  padding-bottom: 2px;
+}
+.city {
+  color: var(--grey-color);
+}
+
+  .contact a {
     margin: -1em 0 0;
     padding: 0 0 0;
     color: whitesmoke;
@@ -36,6 +48,7 @@
     align-self: center;
     margin: 10px 0 10px;
   }
+
   
   /* .active {
     box-shadow: 0 0 20px rgba(232, 172, 42, 1);
