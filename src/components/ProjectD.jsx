@@ -22,7 +22,7 @@ const ProjectA = () => {
             An early features allow users to access random quotes from an API. I'd like each barnyard character to provide a set of animations and actions like providing quotes or fun facts. 
           </p>
          
-          <p><Link to="https://sofocoflier.netlify.app">check it out</Link></p>
+          <p><Link to="https://thebarnyard.netlify.app/">check it out</Link></p>
       </div>
     </section>
   )
