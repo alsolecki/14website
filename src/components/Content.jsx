@@ -1,14 +1,14 @@
 import React from 'react'
-import ProjectA from './ProjectA.jsx'
+import ProjectD from './ProjectD.jsx'
 import ProjectB from './ProjectB.jsx'
 import ProjectC from './ProjectC.jsx'
 
 const Content = () => {
   return (
     <div>
-        <ProjectA />
         <ProjectB />
         <ProjectC /> 
+        <ProjectD />
     </div>
   )
 }

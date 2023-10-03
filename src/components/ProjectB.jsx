@@ -5,8 +5,8 @@ const ProjectB = () => {
   return (
     <section>
         <div className="content">
-            <h1>project 2</h1>
-            <h2>Exhibit Gallery</h2>
+            <h1>project 1</h1>
+            <h2>ExhibitGallery</h2>
             <span className="icons">
                 <div><h5>HTML</h5></div>
                 <div><h5>CSS</h5></div>
