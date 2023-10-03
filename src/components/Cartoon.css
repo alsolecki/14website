@@ -1,0 +1,17 @@
+.cartoon {
+    position: fixed;
+    top: 50vh;
+    left: 15vh;
+}
+
+.head {
+    width: 101px;
+    height: 132px;
+    border: peachpuff 5px solid;
+    background-color: peachpuff;
+    border-radius: 50%;
+    border-bottom-right-radius: 50px 84px;
+    border-bottom-left-radius: 45px 70px;
+    transform: rotate(-7deg);
+    z-index: 5;
+}
