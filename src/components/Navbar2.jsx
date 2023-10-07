@@ -4,8 +4,10 @@ import toySVG from "./toy-duck-icon.svg";
 import homeSVG from "./home-icon.svg";
 import './Navbar2.css'
 
+
 const Navbar2 = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+
 
     let menuRef = useRef();
 
@@ -44,13 +46,17 @@ const Navbar2 = () => {
             <li><Link to="https://exhibitgallery.netlify.app">ExhibitGallery</Link></li>
             <li><Link to="https://foodclock.netlify.app">FoodClock</Link></li>
             <li><Link to="https://thebarnyard.netlify.app/">BarnYard</Link></li>
+            <li></li>
             <li> 
                 <a href="https://babyouterspace.netlify.app/">
-                <img src={ toySVG } alt="Toy Duck Icon" width="16px" height="16px"/></a>
+                <img src={ toySVG } alt="Home Icon" width="24px" height="20px"/>
+                </a>  
             </li>
         </ul>
     </nav>
   )
 }
+
+
 
 export default Navbar2
