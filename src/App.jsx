@@ -15,7 +15,9 @@ function App() {
       <Hero />
       <Content />
       <>
+      <section id="contact">
         <Contact />
+      </section>
         <Footer />
       </>
       </>
