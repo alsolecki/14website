@@ -4,7 +4,7 @@ const Contact = () => {
 
   
   return (
-    <div className="contact inactive">
+    <div className="contact">
         <div className="expand">
           <p className="name">Alex Solecki</p>
           <p className="city">Washington DC Area</p>

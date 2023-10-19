@@ -16,9 +16,6 @@ renderer.setSize( window.innerWidth, window.innerHeight );
 
 // camera.position.setZ(-15) ;
 
- 
-
-
 
 const randomColorA = `hsl(${Math.random() * 360}, 100%, 75%)`
 const randomColorB = `hsl(${Math.random() * 360}, 100%, 75%)`
@@ -56,8 +53,6 @@ const points = [
 ]
 
 
-
-
 //LIGHTS
 
 const pointLight = new THREE.PointLight(0xffffff, 100, 100);
@@ -75,13 +70,6 @@ scene.add(lightHelper)
 
 const controls = new OrbitControls(camera, renderer.domElement);
 
-
-//Background
-
-  // const spaceTexture = new THREE.TextureLoader().load(nightsky)
-  // scene.background = spaceTexture;
-
-
 // CAMERA MOVEMENT
 
 function moveCamera() {
@@ -97,7 +85,6 @@ function moveCamera() {
 
 document.body.onscroll = moveCamera
 
-
 function animate() {
   requestAnimationFrame( animate );
   
@@ -108,9 +95,6 @@ function animate() {
   controls.update();
   
   renderer.render( scene, camera );
-
 }
 
 animate();
-
-// Follow Points

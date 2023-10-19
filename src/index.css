@@ -39,9 +39,7 @@ body {
   margin: 0;
 }
 
-
 /* //////END THREE JS CANVAS */
-
 
 .content img {
   margin-left: 10px;
@@ -49,40 +47,7 @@ body {
   filter: invert(.9);
 }
 
-
 /* CONTACT FIELD */
-
-.contact {
-  width: 50%;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.65);
-  color: whitesmoke;
-  margin: auto;
-  margin-top: 50px;
-  max-width: 360px;
-}
-
-.contact p {
-  margin: -1em 0 0;
-}
-
-.contact a {
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-.contact button {
-  height: 48px;
-  width: 120px;
-  border: var(--second-color) 2px solid;
-  border-radius: 4px;
-  background-color: transparent;
-  color: whitesmoke;
-  font-size: 1.0em;
-  align-self: center;
-  margin: 20px 0 20px;
-}
-
 
 .footer {
   display: block;

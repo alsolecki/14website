@@ -1,5 +1,6 @@
 :root {
   --grey-color: rgb(150, 150, 150);
+  --hover-green:  rgb(203, 221, 62);
 }
 /* CONTACT FIELD */
 
@@ -17,44 +18,29 @@
   padding-bottom: 8rem;
 }
 
+.contact p {
+  margin: -1em 0 0;
+}
+
+
 .name {
   font-weight: 400;
   font-size: 1.35rem;
   padding-bottom: 2px;
 }
+
 .city {
   color: var(--grey-color);
 }
 
-  .contact a {
-    margin: -1em 0 0;
-    padding: 0 0 0;
-    color: whitesmoke;
-    text-decoration: none;
-  }
+.contact a {
+  margin: -1em 0 0;
+  padding: 0 0 0;
+  color: whitesmoke;
+  text-decoration: none;
+}
 
-  .contact a:hover {
-    color: rgb(203, 221, 62)
-  }
+.contact a:hover {
+  color: var(--hover-green);
+}
   
-  .contact button {
-    height: 48px;
-    width: 120px;
-    border: var(--second-color) 2px solid;
-    border-radius: 4px;
-    background-color: transparent;
-    color: whitesmoke;
-    font-size: 1.0em;
-    align-self: center;
-    margin: 10px 0 10px;
-  }
-
-  
-  /* .active {
-    box-shadow: 0 0 20px rgba(232, 172, 42, 1);
-    transition: all 0.2s ease;
-  }
-
-  .inactive {
-    transition: all 0.2s ease;
-  } */
