@@ -1,5 +1,5 @@
 import React from 'react'
-import headshot from '../assets/AS-headshot_2018.jpg'
+import headshot from '../assets/AS-headshot-2023.jpg'
 
 const Hero = () => {
   return (
