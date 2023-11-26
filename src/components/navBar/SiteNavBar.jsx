@@ -43,7 +43,7 @@ const SiteNavBar = () => {
                 <a href="#contact">Contact</a>
             </li>
             <li> 
-                <a href="https://babyouterspace.netlify.app/">
+                <a href="https://rubberduckieouterspace.netlify.app/">
                     <GiDuck />
                 </a>  
             </li>
