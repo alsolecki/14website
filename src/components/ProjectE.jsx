@@ -5,20 +5,16 @@ const ProjectE = () => {
   return (
     <section>
         <div className="content">
-          <h1>project 2</h1>
+        <div className="wrapper">
+          <h1>WannaWatch</h1>
           <h2>WannaWatch</h2>
-          <span className="icons">
-            <div><h5>HTML</h5></div>
-            <div><h5>CSS</h5></div>
-            <div><h5>JavaScript</h5></div>
-            <div><h5>React.JS</h5></div>
-          </span>
-          <h4>A Movie List</h4>
+          <h4>Intro to MVP</h4>
           <p>
-            WannaWatch is an app that allows users to create a list of movies they want to watch.
+            WannaWatch is an app that allows users to create a list of movies they want to watch. Though it's essentially a simple to-do list, it's helped me understand the concept of <strong>Minimal Viable Product</strong>.
           </p>
          
           <p><Link to="https://wanna-watch.netlify.app/">check it out</Link></p>
+        </div>
       </div>
     </section>
   )
