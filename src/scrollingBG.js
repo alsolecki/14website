@@ -43,14 +43,40 @@ const sphere = new THREE.Mesh( geometry4, material4 );
 
 scene.add(torus, torus2, torus3)
 
-//POINTS OF INTEREST
+/**
+ * Particles
+ */
 
-const points = [
-  {
-    position: new THREE.Vector3( 0, 0, 0),
-    element: document.querySelector('.point-0')
-  }
-]
+// Geometry
+const particlesCount = 720;
+const positions = new Float32Array(particlesCount * 3)
+
+for (let i = 0; i < particlesCount; i++)
+{
+    positions[i * 3 + 0] = (Math.random() - 0.5) * 80
+    positions[i * 3 + 1] = (Math.random() - 0.5) * 30
+    positions[i * 3 + 2] = (Math.random() - 0.5) * 60
+}
+
+const particlesGeometry = new THREE.BufferGeometry()
+particlesGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3))
+
+
+const parameters = {
+  materialColor: 'whitesmoke'
+}
+
+// Material
+const particlesMaterial = new THREE.PointsMaterial({
+    color: parameters.materialColor,
+    sizeAttenuation: true,
+    size: 0.03
+})
+
+// Points
+const particles = new THREE.Points(particlesGeometry, particlesMaterial)
+scene.add(particles)
+
 
 
 //LIGHTS
