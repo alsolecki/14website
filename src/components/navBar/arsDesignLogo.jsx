@@ -4,10 +4,10 @@ import './arsDesignLogo.css'
 const ArsDesignLogo = () => {
     return (
         <div className="logo">
-            <div className="circle">
-                <p>ars</p>
-                <p>design</p>
-            </div>
+
+            <p>ars</p>
+            <p>design</p>
+
         </div>
     )
 }

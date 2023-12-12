@@ -95,11 +95,13 @@ nav .menu span {
 * Submenu
 **/
 
-.exhibits-submenu {
+
+.exhibits-submenu,
+.webdev-submenu {
     /* border: red 2px solid; */
     background-color:rgba(50, 50, 50, 1);
-    height: 16rem;
-    width: 12rem;
+    height: fit-content;
+    width: 10rem;
     position: absolute;
     top: 80px;
     display: flex;
@@ -110,15 +112,19 @@ nav .menu span {
     padding: 0;
 }
 
-.exhibits-submenu li {
+.exhibits-submenu li,
+.webdev-submenu li {
     cursor: pointer;
+    height: 50px;
 }
   
-.exhibits-submenu li a:hover {
+.exhibits-submenu li a:hover,
+.webdev-submenu li a:hover {
     color: rgb(203, 221, 62);
 }
 
-.exhibits-submenu.closed {
+.exhibits-submenu.closed,
+.webdev-submenu.closed {
     display: none;
 }
 

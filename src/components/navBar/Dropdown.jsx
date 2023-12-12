@@ -8,10 +8,9 @@ const Dropdown = ( {subMenuOpen, setSubMenuOpen}) => {
                 className={subMenuOpen ? "exhibits-submenu" : "exhibits-submenu closed"}
                 onClick={() => setSubMenuOpen(!subMenuOpen)}
             >
-                <li><Link to="https://exhibitgallery.netlify.app">Exhibits Gallery</Link></li>
                 <li><Link to="/">Projects</Link></li>
                 <li><Link to="/">Drawings</Link></li>
-                <li><Link to="/">Rendering</Link></li>
+                <li><Link to="/">Renderings</Link></li>
             </ul>
         </div>
     )

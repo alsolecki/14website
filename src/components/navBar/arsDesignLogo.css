@@ -2,29 +2,23 @@
     text-decoration: none;
     color: whitesmoke;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     line-height: 1rem;
-    align-items: center;
-    transform: scale(0.8)
+    align-items:baseline;
+    transform: scale(1)
 }
 
 .logo p:first-child {
     font-family: 'Rubik', sans-serif;
     margin: 0;
     font-weight: 500;
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     color:rgba(255, 255, 255, 0.65);
+    padding: 0 0.1rem 0 0.5rem
 }
 
 .logo p:last-child {
     font-family: 'Urbanist', sans-serif;
-    font-size: 0.95rem;
-    margin: 0.25rem 0 0;
+    font-size: 1.8rem;
     font-weight: 100;
-}
-
-.circle {
-    border: rgba(255, 255, 255, 0.35) 1px solid;
-    padding: 11px;
-    border-radius: 50%;
 }

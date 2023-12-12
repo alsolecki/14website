@@ -1,13 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { GiDuck } from "react-icons/gi";
 import './SiteNavBar.css'
 import Dropdown from './Dropdown.jsx'
 import ArsDesignLogo from './arsDesignLogo.jsx'
+import DropdownDev from './DropdownDev.jsx'
 
 const SiteNavBar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [subMenuOpen, setSubMenuOpen] = useState(false);
+    const [devSubMenuOpen, setDevSubMenuOpen] = useState(false);
 
     let menuRef = useRef();
 
@@ -45,11 +46,15 @@ const SiteNavBar = () => {
                     onMouseLeave={() => setSubMenuOpen(false)}
                 >
                     {subMenuOpen && <Dropdown subMenuOpen="subMenuOpen" setSubMenuOpen="setSubMenuOpen" />}
-                    <Link to="https://exhibitgallery.netlify.app">Exhibits</Link>
+                    <Link to="/">Exhibits</Link>
                 </li>
-                <li>
-                    <a href="https://rubberduckieouterspace.netlify.app/">
-                        {/* <GiDuck /> */}
+
+                <li
+                    onMouseEnter={() => setDevSubMenuOpen(true)}
+                    onMouseLeave={() => setDevSubMenuOpen(false)}
+                >
+                     {devSubMenuOpen && <DropdownDev devSubMenuOpen="devSubMenuOpen" setDevSubMenuOpen="setDevSubMenuOpen" />}
+                    <a href="/">
                         Web Dev
                     </a>
                 </li>

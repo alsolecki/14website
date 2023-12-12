@@ -8,7 +8,7 @@ const ProjectB = () => {
         <div className="wrapper">
           <h1>ExhibitGallery</h1>
           <h2>ExhibitGallery</h2>
-          <h4>Exhibit Design Portfolio</h4>
+          <h4>Exhibit Design</h4>
           <p>
             I spent 14 years working as an exhibit designer and throughout that span I helped create dozens of unique displays and museum environments.
 

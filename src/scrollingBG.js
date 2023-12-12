@@ -19,39 +19,30 @@ const randomColor = `hsl(${Math.random() * 360}, 100%, 75%)`
 
 const randomColorA = randomColor;
 
-let randomColorB = `hsl(${randomColorA + 240}, 100%, 75%)`
+let randomColorB = `hsl(${Math.random() * 360 }, 100%, 75%)`
 
 let randomColorC = `hsl(${Math.random() * 360}, 100%, 75%)`
 
 
 //Torus Geometry
 
-const geometry = new THREE.TorusGeometry( 8, 1, 18, 100 )
+const geometry = new THREE.TorusGeometry( 8, 1.25, 18, 100 )
 const material = new THREE.MeshStandardMaterial( { color: randomColorA } );
 const torus = new THREE.Mesh( geometry, material );
 
-const geometry2 = new THREE.TorusGeometry( 10, 0.25, 4, 100 )
+const geometry2 = new THREE.TorusGeometry( 10, 0.75, 4, 100 )
 const material2 = new THREE.MeshStandardMaterial( { color: randomColorB } );
 const torus2 = new THREE.Mesh( geometry2, material2 );
 
-const geometry3 = new THREE.TorusGeometry( 16, 1, 18, 100 )
+const geometry3 = new THREE.TorusGeometry( 12, 1, 18, 100 )
 const material3 = new THREE.MeshStandardMaterial( { color: randomColorC } );
 const torus3 = new THREE.Mesh( geometry3, material3 );
 
-// const geometry4 = new THREE.SphereGeometry( 1, 64, 32 ); 
-// const material4 = new THREE.MeshPhongMaterial({ color: 'hsl(0, 0%, 50%,)', shininess: 200 })
-// const sphere = new THREE.Mesh( geometry4, material4 ); 
-// scene.add( sphere );
-
-const geometry4 = new THREE.TorusGeometry( 12, 1, 18, 100); 
-const material4 = new THREE.MeshPhongMaterial({ color: 'hsl(0, 0%, 50%,)', shininess: 200 })
+const geometry4 = new THREE.TorusGeometry( 16, 0.5, 18, 100); 
+const material4 = new THREE.MeshStandardMaterial({ color: randomColorA })
 const torus4 = new THREE.Mesh( geometry4, material4 ); 
 
-const geometry5 = new THREE.TorusGeometry( 32, 0.25, 18, 100); 
-const material5 = new THREE.MeshPhongMaterial({ color: 'hsla(0, 0%, 50%, 0.05)' })
-const torus5 = new THREE.Mesh( geometry5, material5 ); 
-
-scene.add(torus, torus2, torus3, torus4, torus5)
+scene.add(torus, torus2, torus3, torus4 )
 
 
 /**
@@ -59,7 +50,7 @@ scene.add(torus, torus2, torus3, torus4, torus5)
  */
 
 // Geometry
-const particlesCount = 720;
+const particlesCount = 39;
 const positions = new Float32Array(particlesCount * 3)
 
 for (let i = 0; i < particlesCount; i++)
@@ -74,7 +65,7 @@ particlesGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 
 
 
 const parameters = {
-  materialColor: 'rgba(255, 255, 255, 0.2'
+  materialColor: 'rgb(255, 255, 255)'
 }
 
 
@@ -127,9 +118,10 @@ document.body.onscroll = moveCamera
 function animate() {
   requestAnimationFrame( animate );
   
-  torus.rotation.y += 0.003;  
+  torus.rotation.y += 0.0025;  
   torus2.rotation.y -= 0.001;  
-  torus3.rotation.y += 0.002;  
+  torus3.rotation.y += 0.0015;  
+  torus4.rotation.y -= 0.0005; 
 
   controls.update();
   
