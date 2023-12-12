@@ -8,7 +8,6 @@ const ArsDesignLogo = () => {
                 <p>ars</p>
                 <p>design</p>
             </div>
-
         </div>
     )
 }

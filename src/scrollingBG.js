@@ -15,11 +15,13 @@ renderer.setPixelRatio( window.devicePixelRatio );
 renderer.setSize( window.innerWidth, window.innerHeight );
 
 // camera.position.setZ(-15) ;
+const randomColor = `hsl(${Math.random() * 360}, 100%, 75%)`
 
+const randomColorA = randomColor;
 
-const randomColorA = `hsl(${Math.random() * 360}, 100%, 75%)`
-const randomColorB = `hsl(${Math.random() * 360}, 100%, 75%)`
-const randomColorC = `hsl(${Math.random() * 360}, 100%, 75%)`
+let randomColorB = `hsl(${randomColorA + 240}, 100%, 75%)`
+
+let randomColorC = `hsl(${Math.random() * 360}, 100%, 75%)`
 
 
 //Torus Geometry
@@ -28,20 +30,29 @@ const geometry = new THREE.TorusGeometry( 8, 1, 18, 100 )
 const material = new THREE.MeshStandardMaterial( { color: randomColorA } );
 const torus = new THREE.Mesh( geometry, material );
 
-const geometry2 = new THREE.TorusGeometry( 10, 1, 18, 100 )
+const geometry2 = new THREE.TorusGeometry( 10, 0.25, 4, 100 )
 const material2 = new THREE.MeshStandardMaterial( { color: randomColorB } );
 const torus2 = new THREE.Mesh( geometry2, material2 );
 
-const geometry3 = new THREE.TorusGeometry( 12, 1, 18, 100 )
+const geometry3 = new THREE.TorusGeometry( 16, 1, 18, 100 )
 const material3 = new THREE.MeshStandardMaterial( { color: randomColorC } );
 const torus3 = new THREE.Mesh( geometry3, material3 );
 
-const geometry4 = new THREE.SphereGeometry( 1, 64, 32 ); 
-const material4 = new THREE.MeshPhongMaterial({ color: 'hsl(0, 0%, 50%,)', shininess: 200 })
-const sphere = new THREE.Mesh( geometry4, material4 ); 
+// const geometry4 = new THREE.SphereGeometry( 1, 64, 32 ); 
+// const material4 = new THREE.MeshPhongMaterial({ color: 'hsl(0, 0%, 50%,)', shininess: 200 })
+// const sphere = new THREE.Mesh( geometry4, material4 ); 
 // scene.add( sphere );
 
-scene.add(torus, torus2, torus3)
+const geometry4 = new THREE.TorusGeometry( 12, 1, 18, 100); 
+const material4 = new THREE.MeshPhongMaterial({ color: 'hsl(0, 0%, 50%,)', shininess: 200 })
+const torus4 = new THREE.Mesh( geometry4, material4 ); 
+
+const geometry5 = new THREE.TorusGeometry( 32, 0.25, 18, 100); 
+const material5 = new THREE.MeshPhongMaterial({ color: 'hsla(0, 0%, 50%, 0.05)' })
+const torus5 = new THREE.Mesh( geometry5, material5 ); 
+
+scene.add(torus, torus2, torus3, torus4, torus5)
+
 
 /**
  * Particles
@@ -63,8 +74,10 @@ particlesGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 
 
 
 const parameters = {
-  materialColor: 'whitesmoke'
+  materialColor: 'rgba(255, 255, 255, 0.2'
 }
+
+
 
 // Material
 const particlesMaterial = new THREE.PointsMaterial({

@@ -1,67 +1,70 @@
 .content {
-    background-color:rgba(0, 0, 0, 0.65);
-    margin: auto;
-    padding: 1.5em;
-  }
+  background-color: rgba(0, 0, 0, 0.65);
+  margin: auto;
+  padding: 1.5em;
+}
 
-  .wrapper {
-    max-width: 720px;
-    margin: auto;
-  }
+.wrapper {
+  max-width: 720px;
+  margin: auto;
+}
 
-  .content h1 {
-    font-family: 'Dosis', sans-serif;
-    font-size: 6em;
-    margin: 0.75em 0.5rem -0.5em;
-    color: rgba(150, 150, 150, 0.13);
-  }
-  .content h2 {
-    font-size: 1.9em;
-    margin: 0.5em 0 0.25em;
-  }
-  .content h4 {
-    font-size: 1.4em;
-    margin: 0.25em 1.5rem 0.25em;
-    color: rgb(210, 210, 210);
-    height: 2.25rem;
-  }
-  .content h5 {
-    font-weight: 200;
-    color: rgb(170, 170, 170);
-    border: rgb(120,120,120) solid 1px;
-    padding: 1px 10px 1px 6px;
-    line-height: 1.5em;
-    margin: 14px 6px 2px 4px;
-    border-top-left-radius: 10px 10px;
+.content h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 6em;
+  margin: 0.75em 0.5rem -0.5em;
+  color: rgba(150, 150, 150, 0.13);
+}
 
-  }
+.content h2 {
+  font-size: 1.9em;
+  margin: 0.5em 0 0.25em;
+}
 
-  .content p {
-    line-height: 1.8em;
-    font-size: 1.15em;
-    margin: 0.25em 1.5rem 1.25em;
-  }
-  .content a {
-    color: aqua;
-    text-decoration: none;
-  }
+.content h4 {
+  font-size: 1.4em;
+  margin: 0.25em 1.5rem 0.25em;
+  color: rgb(210, 210, 210);
+  height: 2.25rem;
+}
 
-  .icons {
-    display: flex;
-    align-items: center;
-  }
+.content h5 {
+  font-weight: 200;
+  color: rgb(170, 170, 170);
+  border: rgb(120, 120, 120) solid 1px;
+  padding: 1px 10px 1px 6px;
+  line-height: 1.5em;
+  margin: 14px 6px 2px 4px;
+  border-top-left-radius: 10px 10px;
 
-  .fadeblock-in {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0) );
-    margin: auto;
-    padding: 1.5em;
-    height: 16rem;
-  }
-  .fadeblock-out {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0) );
-    margin: auto;
-    padding: 1.5em;
-    height: 24rem;
-  }
-  
+}
 
+.content p {
+  line-height: 1.8em;
+  font-size: 1.15em;
+  margin: 0.25em 1.5rem 1.25em;
+}
+
+.content a {
+  color: aqua;
+  text-decoration: none;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.fadeblock-in {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0));
+  margin: auto;
+  padding: 1.5em;
+  height: 36rem;
+}
+
+.fadeblock-out {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0));
+  margin: auto;
+  padding: 1.5em;
+  height: 30rem;
+}

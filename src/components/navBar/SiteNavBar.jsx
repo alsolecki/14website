@@ -28,7 +28,6 @@ const SiteNavBar = () => {
             <div className="home">
                 <a href="https://alsolecki.com/">
                     <ArsDesignLogo />
-                    
                 </a>
             </div>
             <div className="menu" onClick={() => { setMenuOpen(!menuOpen) }}>
