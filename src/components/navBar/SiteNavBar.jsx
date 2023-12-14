@@ -1,15 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import './SiteNavBar.css'
-import Dropdown from './Dropdown.jsx'
-import ArsDesignLogo from './arsDesignLogo.jsx'
 import DropdownDev from './DropdownDev.jsx'
+import arslogo from './arsdesign-logo1.svg'
 
 const SiteNavBar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [subMenuOpen, setSubMenuOpen] = useState(false);
     const [devSubMenuOpen, setDevSubMenuOpen] = useState(false);
-
     let menuRef = useRef();
 
     useEffect(() => {
@@ -28,7 +25,7 @@ const SiteNavBar = () => {
         <nav ref={menuRef}>
             <div className="home">
                 <a href="https://alsolecki.com/">
-                    <ArsDesignLogo />
+                    <img src={arslogo} alt="ars design logo" style={{height: '98px', marginLeft: '-0.75rem'}}/>
                 </a>
             </div>
             <div className="menu" onClick={() => { setMenuOpen(!menuOpen) }}>
@@ -41,13 +38,7 @@ const SiteNavBar = () => {
 
                 <li><Link to="https://alsolecki.com/">Home</Link></li>
 
-                <li
-                    onMouseEnter={() => setSubMenuOpen(true)}
-                    onMouseLeave={() => setSubMenuOpen(false)}
-                >
-                    {subMenuOpen && <Dropdown subMenuOpen="subMenuOpen" setSubMenuOpen="setSubMenuOpen" />}
-                    <Link to="/">Exhibits</Link>
-                </li>
+                <li><Link to="https://solecki-exhibit-portfolio.netlify.app/">Exhibits</Link></li>
 
                 <li
                     onMouseEnter={() => setDevSubMenuOpen(true)}
@@ -55,7 +46,7 @@ const SiteNavBar = () => {
                 >
                      {devSubMenuOpen && <DropdownDev devSubMenuOpen="devSubMenuOpen" setDevSubMenuOpen="setDevSubMenuOpen" />}
                     <a href="/">
-                        Web Dev
+                        WebDev
                     </a>
                 </li>
                 <li>

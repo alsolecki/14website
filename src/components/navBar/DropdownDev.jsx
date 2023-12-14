@@ -10,7 +10,7 @@ const DropdownDev = ( {devSubMenuOpen, setDevSubMenuOpen}) => {
             >
                 <li><Link to="https://exhibitgallery.netlify.app">Exhibits Gallery</Link></li>
                 <li><Link to="https://wanna-watch.netlify.app">WannaWatch</Link></li>
-                <li><Link to="https://learn-japanese-at-blair.netlify.app/">JPL</Link></li>
+                <li><a href="https://learn-japanese-at-blair.netlify.app/" target="_blank" rel="noopener noreferrer">JPL</a></li>
                 <li><Link to="https://rubberduckieouterspace.netlify.app">RubberDuckie</Link></li>
             </ul>
         </div>
