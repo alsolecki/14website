@@ -22,7 +22,7 @@ const ProjectB = () => {
             I've learned to use many different types of drawings to communicate. <strong>Quick sketches</strong> are helpful for generating ideas and collaborating with other designers. <strong>Plans, Elevations and Details</strong> are useful when working with architects, general contractors and fabricators. <strong>Specialty Drawings</strong> are helpful for AV systems or Content location plans. <strong>Vignettes</strong> are useful for outlining interactives or other unique points of interest. <strong>AXO and Perspective Views</strong> allow clients to understand the space three-dimensionally and <strong>renderings</strong> are fully developed 3D scenes, primarily for marketing.
           </p>
          
-          <p><Link to="https://exhibitgallery.netlify.app">check it out</Link></p>
+          <p><Link to="https://solecki-exhibit-portfolio.netlify.app/">check it out</Link></p>
         </div>
 
       </div>
