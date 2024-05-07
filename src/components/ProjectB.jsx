@@ -10,7 +10,7 @@ const ProjectB = () => {
           <h2>Exhibits</h2>
           <h4>Exhibit Design Projects</h4>
           <p>
-            I spent 14 years working as an exhibit designer and throughout that span I helped <strong>create dozens of unique displays</strong> and museum environments.
+            I've spent over 15 years working as an exhibit designer and throughout that span I helped <strong>create dozens of unique displays</strong> and museum environments.
             Clients have a message they want to share through the exhibits and visitors want to learn and create <strong>memorable and meaningful experiences</strong>. There's a lot of complexity and variables that must be considered to make a quality museum experience. I understand it requires <strong>good communication and cooperation</strong> amongst many different parties to make these a reality.
           </p>
           <p>

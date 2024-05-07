@@ -7,7 +7,7 @@ const Hero = () => {
         <h1>Hello, I'm Alex.</h1>
         <h3>designer & web developer</h3>
         <img className="headshot"src={ headshot } alt="headshot of Alex Solecki" /> 
-        <p>With a formal background in both <strong>industrial design</strong> and <strong>exhibit design</strong>, I've recently added <strong>web development</strong> to my professional skill set. When I'm not designing, coding or spending time with my wife and one-year old daughter, you can find me cooking, gardening or playing tennis.
+        <p>With a formal background in both <strong>industrial design</strong> and <strong>exhibit design</strong>, I've recently added <strong>web development</strong> to my professional skill set. When I'm not designing, coding or spending time with my wife and two-year old daughter, you can find me cooking, gardening or playing tennis.
         </p>
 
         {/* <ArsDesignLogo /> */}
