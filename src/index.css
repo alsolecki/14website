@@ -3,6 +3,13 @@
   --second-color: rgb(186, 220, 226);
   --third-color: rgb(56, 118, 163);
   --grey-color: rgb(150, 150, 150);
+  --bright-limegreen: oklch(84.85% 0.35 144.53);
+  --regular-limegreen: rgb(0, 255, 0);
+  --bright-red: oklch(70% 0.27 0);
+  --regular-red: rgb(255, 0, 0);
+  --regular-magenta: rgb(255, 0, 255);
+  --regular-yellow: rgb(255 255 0);
+  --bright-yellow: oklch(94.67% 0.2448 112.76);
 }
 
 html {
@@ -66,4 +73,35 @@ body {
   text-align: center;
 }
 
+/* TEST COLOR */
 
+.testBox {
+  width: 3rem;
+  height: 3rem;
+  background: var(--regular-magenta);
+  border: var(--bright-red) 0.5rem solid;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.testBox2 {
+  width: 3rem;
+  height: 3rem;
+  background: var(--regular-limegreen);
+  border: var(--bright-limegreen) 0.5rem solid;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.testBox3 {
+  width: 3rem;
+  height: 3rem;
+  background: var(--regular-yellow);
+  border: var(--bright-yellow) 0.5rem solid;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.blankBox {
+  height: 12rem;
+}

@@ -24,6 +24,7 @@ let randomColorB = `hsl(${Math.random() * 360 }, 100%, 75%)`
 let randomColorC = `hsl(${Math.random() * 360}, 100%, 75%)`
 
 
+
 //Torus Geometry
 
 const geometry = new THREE.TorusGeometry( 8, 1.25, 18, 100 )
