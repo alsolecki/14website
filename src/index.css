@@ -20,7 +20,9 @@ html {
   background: var(--dark-color);
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -42,7 +44,9 @@ canvas {
   position: fixed;
   top: 0;
   left: 0;
+  border: 1px red solid;
 }
+
 body {
   margin: 0;
 }
