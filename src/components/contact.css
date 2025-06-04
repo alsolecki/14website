@@ -1,13 +1,14 @@
 :root {
   --grey-color: rgb(150, 150, 150);
-  --hover-green:  rgb(203, 221, 62);
+  --hover-green: rgb(203, 221, 62);
 }
+
 /* CONTACT FIELD */
 
 .contact {
   width: 100vw;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.65);
+  /* background-color: rgba(0, 0, 0, 0.65); */
   color: whitesmoke;
   margin: 0 auto;
   display: flex;
@@ -42,4 +43,3 @@
 .contact a:hover {
   color: var(--hover-green);
 }
-  

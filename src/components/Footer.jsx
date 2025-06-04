@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (<>
-    <div className="fadeblock-out"></div>
+    {/* <div className="fadeblock-out"></div> */}
     <div className="footer">
       {/* <div className='testBox'></div>
       <div className='testBox3'></div>

@@ -11,7 +11,7 @@ function App() {
     <>
       <SiteNavBar />
       <Hero />
-      <Content />
+      {/* <Content /> */}
       <>
         <section id="contact">
           <Contact />
