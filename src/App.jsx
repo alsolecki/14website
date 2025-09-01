@@ -12,6 +12,7 @@ function App() {
       <SiteNavBar />
       <Hero />
       {/* <Content /> */}
+      <div className="blankBox2"></div>
       <>
         <section id="contact">
           <Contact />

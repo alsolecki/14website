@@ -7,7 +7,6 @@ const Footer = () => {
       {/* <div className='testBox'></div>
       <div className='testBox3'></div>
       <div className='testBox2'></div> */}
-      <div className='blankBox'></div>
     </div>
   </>
 
