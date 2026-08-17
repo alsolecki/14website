@@ -1300,7 +1300,7 @@
     "title": "The Meadowlands",
     "artist": "The Wrens",
     "year": 2002,
-    "coverUrl": "https://dn721907.ca.archive.org/0/items/mbid-cef6b0f6-32cf-4c0d-bd3a-2b7e0b9c2307/mbid-cef6b0f6-32cf-4c0d-bd3a-2b7e0b9c2307-10357614627.jpg",
+    "coverUrl": "/albums/covers/the-wrens-the-meadowlands.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1320,7 +1320,7 @@
     "title": "Days",
     "artist": "Real Estate",
     "year": 2011,
-    "coverUrl": "https://dn710205.ca.archive.org/0/items/mbid-122259c2-d41f-434f-b319-fb31d560af86/mbid-122259c2-d41f-434f-b319-fb31d560af86-32581253093.jpg",
+    "coverUrl": "/albums/covers/real-estate-days.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1492,7 +1492,7 @@
     "title": "Rock and Roll Part Three",
     "artist": "Ozma",
     "year": 2000,
-    "coverUrl": "https://dn710004.ca.archive.org/0/items/mbid-ef52beed-d8a5-4d00-a200-e7b55badf257/mbid-ef52beed-d8a5-4d00-a200-e7b55badf257-44571304273.jpg",
+    "coverUrl": "/albums/covers/ozma-rock-and-roll-part-three.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -2153,5 +2153,62 @@
       "discogs": ""
     },
     "musicbrainzId": "0d043584-6e84-4e2a-96b9-28d2a6323f46"
+  },
+  {
+    "id": "naoya-matsuoka-heart-cocktail-vol-2",
+    "title": "Heart Cocktail Vol. 2",
+    "artist": "Naoya Matsuoka",
+    "year": 1987,
+    "coverUrl": "/albums/covers/naoya-matsuoka-heart-cocktail-vol-2.jpg",
+    "rating": null,
+    "topRank": 42,
+    "categories": [
+      "Post Claudia"
+    ],
+    "notes": "",
+    "dateAdded": "2026-08-16",
+    "links": {
+      "spotify": "https://open.spotify.com/album/1jE2M5ieY2SLn25JHwFBre",
+      "discogs": ""
+    },
+    "musicbrainzId": null
+  },
+  {
+    "id": "dante-high-dante-high",
+    "title": "Dante High",
+    "artist": "Dante High",
+    "year": 2018,
+    "coverUrl": "/albums/covers/dante-high-dante-high.jpg",
+    "rating": null,
+    "topRank": 43,
+    "categories": [
+      "Mid Adult"
+    ],
+    "notes": "",
+    "dateAdded": "2026-08-16",
+    "links": {
+      "spotify": "https://open.spotify.com/album/4N9nHMsgF7cYXBCYQ3yTl6",
+      "discogs": ""
+    },
+    "musicbrainzId": null
+  },
+  {
+    "id": "pellegrino-zodyaco-morphe",
+    "title": "Morphé",
+    "artist": "Pellegrino & Zodyaco",
+    "year": 2020,
+    "coverUrl": "/albums/covers/pellegrino-zodyaco-morphe.jpg",
+    "rating": null,
+    "topRank": 44,
+    "categories": [
+      "Post Claudia"
+    ],
+    "notes": "",
+    "dateAdded": "2026-08-16",
+    "links": {
+      "spotify": "https://open.spotify.com/album/2xkX0ybDzfVxphJEGl9BFv",
+      "discogs": ""
+    },
+    "musicbrainzId": null
   }
 ]
