@@ -36,7 +36,7 @@ const splitIntoTiers = (sortedAlbums, breaks) => {
   return tiers
 }
 
-const AlbumCard = ({ album, showRank }) => {
+const AlbumCard = ({ album }) => {
   // Covers are hotlinked from Spotify's CDN, which is generally stable but
   // not guaranteed — if a URL ever 404s, fall back to the same letter
   // placeholder used for albums that never had a coverUrl at all, rather
@@ -46,7 +46,7 @@ const AlbumCard = ({ album, showRank }) => {
 
   return (
     <div className="album-card">
-      {showRank && album.topRank != null && (
+      {album.topRank != null && (
         <div className="album-rank">#{album.topRank}</div>
       )}
       <div className="album-cover">
@@ -65,6 +65,7 @@ const AlbumCard = ({ album, showRank }) => {
       <div className="album-info">
         <h3>{album.title}</h3>
         <h4>{album.artist} &middot; {album.year}</h4>
+        {album.rating != null && <p className="album-rating">★ {album.rating}/10</p>}
         {album.categories?.length > 0 && (
           <div className="album-tags">
             {album.categories.map((tag) => (
@@ -187,7 +188,7 @@ const AlbumsPage = () => {
                   )}
                   <div className="albums-grid">
                     {tier.albums.map((album) => (
-                      <AlbumCard key={album.id} album={album} showRank />
+                      <AlbumCard key={album.id} album={album} />
                     ))}
                   </div>
                 </React.Fragment>
@@ -200,7 +201,7 @@ const AlbumsPage = () => {
                   </div>
                   <div className="albums-grid albums-grid--secondary">
                     {next50.map((album) => (
-                      <AlbumCard key={album.id} album={album} showRank />
+                      <AlbumCard key={album.id} album={album} />
                     ))}
                   </div>
                 </>

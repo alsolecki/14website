@@ -171,10 +171,11 @@
   font-size: 2em;
 }
 
-/* Notes and tags are the first things to go at this size — the cover,
-   title, artist, and rank carry the tier on their own. */
+/* Notes, tags, and rating are the first things to go at this size — the
+   cover, title, artist, and rank carry the tier on their own. */
 .albums-grid--secondary .album-notes,
-.albums-grid--secondary .album-tags {
+.albums-grid--secondary .album-tags,
+.albums-grid--secondary .album-rating {
   display: none;
 }
 
@@ -238,6 +239,12 @@
   font-size: 0.9em;
   font-weight: 400;
   color: rgb(170, 170, 170);
+  margin: 0 0 0.5em;
+}
+
+.album-rating {
+  font-size: 0.85em;
+  color: rgb(203, 221, 62);
   margin: 0 0 0.5em;
 }
 
