@@ -71,7 +71,12 @@ const AlbumsPage = () => {
 
   return (
     <section className="albums-page">
-      <div className="content">
+      {/* Named "albums-content" rather than the generic "content" used by
+          the ProjectB/C/E/F cards — that class carries a global
+          `.content img { filter: invert(.9) }` rule (src/index.css) meant
+          for their mockup screenshots, which was inverting every Spotify
+          album cover on this page too. */}
+      <div className="albums-content">
         <div className="wrapper">
           <h1>Albums</h1>
           <h2>Top 50 Albums</h2>
