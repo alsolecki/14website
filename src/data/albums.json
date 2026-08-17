@@ -842,7 +842,7 @@
     "year": 2011,
     "coverUrl": "/albums/covers/metronomy-the-english-riviera.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 51,
     "categories": [
       "Top Bubble",
       "Young Adult"
@@ -862,7 +862,7 @@
     "year": 1974,
     "coverUrl": "/albums/covers/sparks-propaganda.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 52,
     "categories": [
       "Top Bubble",
       "Mid Adult"
@@ -882,7 +882,7 @@
     "year": 1982,
     "coverUrl": "/albums/covers/laurie-anderson-big-science.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 53,
     "categories": [
       "Top Bubble",
       "Post Claudia"
@@ -902,7 +902,7 @@
     "year": 1996,
     "coverUrl": "/albums/covers/silkworm-firewater.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 54,
     "categories": [
       "Top Bubble",
       "Young Adult"
@@ -922,7 +922,7 @@
     "year": 2004,
     "coverUrl": "/albums/covers/animal-collective-sung-tongs.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 55,
     "categories": [
       "Mid Bubble",
       "College"
@@ -942,7 +942,7 @@
     "year": 2004,
     "coverUrl": "/albums/covers/electrelane-the-power-out.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 56,
     "categories": [
       "Mid Bubble",
       "Young Adult"
@@ -962,7 +962,7 @@
     "year": 1998,
     "coverUrl": "/albums/covers/belle-sebastian-the-boy-with-the-arab-strap.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 57,
     "categories": [
       "Mid Bubble",
       "High School"
@@ -982,7 +982,7 @@
     "year": 2002,
     "coverUrl": "/albums/covers/the-flaming-lips-yoshimi-battles-the-pink-robots.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 58,
     "categories": [
       "Mid Bubble",
       "High School"
@@ -1002,7 +1002,7 @@
     "year": 2002,
     "coverUrl": "/albums/covers/beck-sea-change.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 59,
     "categories": [
       "Mid Bubble",
       "College"
@@ -1022,7 +1022,7 @@
     "year": 1993,
     "coverUrl": "/albums/covers/frank-black-frank-black.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 60,
     "categories": [
       "Mid Bubble",
       "High School"
@@ -1042,7 +1042,7 @@
     "year": 2005,
     "coverUrl": "/albums/covers/wilco-a-ghost-is-born.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 61,
     "categories": [
       "Mid Bubble",
       "College"
@@ -1062,7 +1062,7 @@
     "year": 2002,
     "coverUrl": "/albums/covers/ariel-pink-s-haunted-graffiti-house-arrest.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 62,
     "categories": [
       "Mid Bubble",
       "College"
@@ -1082,7 +1082,7 @@
     "year": 2022,
     "coverUrl": "/albums/covers/cate-le-bon-pompeii.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 63,
     "categories": [
       "Mid Bubble",
       "Post Claudia"
@@ -1102,7 +1102,7 @@
     "year": 2020,
     "coverUrl": "/albums/covers/loving-if-i-am-only-my-thoughts.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 64,
     "categories": [
       "Mid Bubble",
       "Mid Adult"
@@ -1122,7 +1122,7 @@
     "year": 2014,
     "coverUrl": "/albums/covers/tops-picture-you-staring.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 65,
     "categories": [
       "Mid Bubble",
       "Mid Adult"
@@ -1142,7 +1142,7 @@
     "year": 1984,
     "coverUrl": "/albums/covers/orange-juice-the-orange-juice.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 66,
     "categories": [
       "Low Bubble",
       "Young Adult"
@@ -1162,7 +1162,7 @@
     "year": 1982,
     "coverUrl": "/albums/covers/mission-of-burma-vs.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 67,
     "categories": [
       "Low Bubble",
       "College"
@@ -1182,7 +1182,7 @@
     "year": 1997,
     "coverUrl": "/albums/covers/yo-la-tengo-i-can-hear-the-heart-beating-as-one.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 68,
     "categories": [
       "Low Bubble",
       "College"
@@ -1202,7 +1202,7 @@
     "year": 2004,
     "coverUrl": "/albums/covers/arcade-fire-funeral.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 69,
     "categories": [
       "Low Bubble",
       "High School"
@@ -1222,7 +1222,7 @@
     "year": 1976,
     "coverUrl": "/albums/covers/the-modern-lovers-the-modern-lovers.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 70,
     "categories": [
       "Low Bubble",
       "Young Adult"
@@ -1242,7 +1242,7 @@
     "year": 1971,
     "coverUrl": "/albums/covers/t-rex-electric-warrior.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 71,
     "categories": [
       "Low Bubble",
       "College"
@@ -1262,7 +1262,7 @@
     "year": 1981,
     "coverUrl": "/albums/covers/the-db-s-stands-for-decibels.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 72,
     "categories": [
       "Low Bubble",
       "Young Adult"
@@ -1282,7 +1282,7 @@
     "year": 2005,
     "coverUrl": "/albums/covers/sam-prekop-who-s-your-new-professor.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 73,
     "categories": [
       "Low Bubble",
       "College"
@@ -1302,7 +1302,7 @@
     "year": 2002,
     "coverUrl": "/albums/covers/the-wrens-the-meadowlands.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 74,
     "categories": [
       "Low Bubble",
       "Young Adult"
@@ -1322,7 +1322,7 @@
     "year": 2011,
     "coverUrl": "/albums/covers/real-estate-days.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 75,
     "categories": [
       "Low Bubble",
       "Mid Adult"
@@ -1342,7 +1342,7 @@
     "year": 1977,
     "coverUrl": "/albums/covers/billy-joel-the-stranger.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 76,
     "categories": [
       "Bubble Out"
     ],
@@ -1361,7 +1361,7 @@
     "year": 1978,
     "coverUrl": "/albums/covers/wire-chairs-missing.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 77,
     "categories": [
       "Bubble Out"
     ],
@@ -1380,7 +1380,7 @@
     "year": 1993,
     "coverUrl": "/albums/covers/archers-of-loaf-icky-mettle.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 78,
     "categories": [
       "Bubble Out"
     ],
@@ -1399,7 +1399,7 @@
     "year": 1979,
     "coverUrl": "/albums/covers/joy-division-unknown-pleasures.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 79,
     "categories": [
       "Bubble Out"
     ],
@@ -1418,7 +1418,7 @@
     "year": 1994,
     "coverUrl": "/albums/covers/beastie-boys-ill-communication.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 80,
     "categories": [
       "Bubble Out"
     ],
@@ -1437,7 +1437,7 @@
     "year": 2001,
     "coverUrl": "/albums/covers/mercury-rev-all-is-dream.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 81,
     "categories": [
       "Bubble Out"
     ],
@@ -1456,7 +1456,7 @@
     "year": 1996,
     "coverUrl": "/albums/covers/fountains-of-wayne-fountains-of-wayne.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 82,
     "categories": [
       "Bubble Out"
     ],
@@ -1475,7 +1475,7 @@
     "year": 2003,
     "coverUrl": "/albums/covers/el-guapo-fake-french.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 83,
     "categories": [
       "Bubble Out"
     ],
@@ -1494,7 +1494,7 @@
     "year": 2000,
     "coverUrl": "/albums/covers/ozma-rock-and-roll-part-three.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 84,
     "categories": [
       "Bubble Out"
     ],
@@ -1513,7 +1513,7 @@
     "year": 1995,
     "coverUrl": "/albums/covers/the-rentals-return-of-the-rentals.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 85,
     "categories": [
       "Bubble Out"
     ],
@@ -1532,7 +1532,7 @@
     "year": 1999,
     "coverUrl": "/albums/covers/at-the-drive-in-vaya.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 86,
     "categories": [
       "Bubble Out"
     ],
@@ -1551,7 +1551,7 @@
     "year": 2002,
     "coverUrl": "/albums/covers/ugly-casanova-sharpen-your-teeth.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 87,
     "categories": [
       "Bubble Out"
     ],
@@ -1570,7 +1570,7 @@
     "year": 2003,
     "coverUrl": "/albums/covers/i-love-you-but-i-ve-chosen-darkness-i-love-you-but-i-ve-chosen-darkness.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 88,
     "categories": [
       "Bubble Out"
     ],
@@ -1589,7 +1589,7 @@
     "year": 2003,
     "coverUrl": "/albums/covers/ted-leo-and-the-pharmacists-hearts-of-oak.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 89,
     "categories": [
       "Bubble Out"
     ],
@@ -1608,7 +1608,7 @@
     "year": 2003,
     "coverUrl": "/albums/covers/the-mars-volta-de-loused-in-the-comatorium.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 90,
     "categories": [
       "Bubble Out"
     ],
@@ -1627,7 +1627,7 @@
     "year": 2002,
     "coverUrl": "/albums/covers/pedro-the-lion-control.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 91,
     "categories": [
       "Bubble Out"
     ],
@@ -1646,7 +1646,7 @@
     "year": 1998,
     "coverUrl": "/albums/covers/air-moon-safari.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 92,
     "categories": [
       "Bubble Out"
     ],
@@ -1665,7 +1665,7 @@
     "year": 2005,
     "coverUrl": "/albums/covers/stephen-malkmus-face-the-truth.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 93,
     "categories": [
       "Bubble Out"
     ],
@@ -1684,7 +1684,7 @@
     "year": 2005,
     "coverUrl": "/albums/covers/wolf-parade-apologies-to-the-queen-mary.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 94,
     "categories": [
       "Bubble Out"
     ],
@@ -1703,7 +1703,7 @@
     "year": 2001,
     "coverUrl": "/albums/covers/spoon-girls-can-tell.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 95,
     "categories": [
       "Bubble Out",
       "College",
@@ -1724,7 +1724,7 @@
     "year": 1996,
     "coverUrl": "/albums/covers/nada-surf-high-low.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 96,
     "categories": [
       "Bubble Out",
       "High School"
@@ -1744,7 +1744,7 @@
     "year": 2000,
     "coverUrl": "/albums/covers/the-dandy-warhols-thirteen-tales-from-urban-bohemia.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 97,
     "categories": [
       "Bubble Out",
       "College"
@@ -1764,7 +1764,7 @@
     "year": 2003,
     "coverUrl": "/albums/covers/the-movies-in-one-era-out-the-other.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 98,
     "categories": [
       "Bubble Out",
       "Young Adult"
@@ -1784,7 +1784,7 @@
     "year": 2006,
     "coverUrl": "/albums/covers/beach-house-beach-house.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 99,
     "categories": [
       "Bubble Out",
       "Young Adult"
@@ -1804,7 +1804,7 @@
     "year": 2001,
     "coverUrl": "/albums/covers/the-white-stripes-white-blood-cells.jpg",
     "rating": null,
-    "topRank": null,
+    "topRank": 100,
     "categories": [
       "Bubble Out",
       "High School"

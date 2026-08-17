@@ -4,7 +4,7 @@ import { CATEGORIES } from '../data/categories.js'
 import './albums.css'
 
 // Sorts entries with a topRank ascending (1, 2, 3, ...) and puts anything
-// without a rank at the end — used for the Top 50 view.
+// without a rank at the end — used for the Top 100 view.
 const byTopRank = (a, b) => {
   if (a.topRank == null && b.topRank == null) return 0
   if (a.topRank == null) return 1
@@ -63,12 +63,20 @@ const AlbumCard = ({ album, showRank }) => {
 }
 
 const AlbumsPage = () => {
-  const [view, setView] = useState('top50') // 'top50' | 'collection'
+  const [view, setView] = useState('top100') // 'top100' | 'collection'
   const [activeCategory, setActiveCategory] = useState(null)
   const [search, setSearch] = useState('')
 
+  // Split at 50/51 rather than reusing one sorted list — the two halves
+  // render at different visual scales (see .albums-grid--secondary in
+  // albums.css), so they need to be separate arrays, not just a shared
+  // sort with a CSS cutoff.
   const top50 = useMemo(
-    () => [...albumsData].filter((a) => a.topRank != null).sort(byTopRank),
+    () => [...albumsData].filter((a) => a.topRank != null && a.topRank <= 50).sort(byTopRank),
+    []
+  )
+  const next50 = useMemo(
+    () => [...albumsData].filter((a) => a.topRank != null && a.topRank > 50).sort(byTopRank),
     []
   )
 
@@ -94,14 +102,14 @@ const AlbumsPage = () => {
       <div className="albums-content">
         <div className="wrapper">
           <h1>Albums</h1>
-          <h2>Top 50 Albums</h2>
+          <h2>{view === 'top100' ? 'Top 100 Albums' : 'Full Collection'}</h2>
 
           <div className="albums-view-toggle">
             <button
-              className={view === 'top50' ? 'active' : ''}
-              onClick={() => setView('top50')}
+              className={view === 'top100' ? 'active' : ''}
+              onClick={() => setView('top100')}
             >
-              Top 50
+              Top 100
             </button>
             <button
               className={view === 'collection' ? 'active' : ''}
@@ -143,17 +151,42 @@ const AlbumsPage = () => {
             </div>
           )}
 
-          <div className="albums-grid">
-            {(view === 'top50' ? top50 : filteredCollection).map((album) => (
-              <AlbumCard key={album.id} album={album} showRank={view === 'top50'} />
-            ))}
-          </div>
+          {view === 'top100' && (
+            <>
+              <div className="albums-grid">
+                {top50.map((album) => (
+                  <AlbumCard key={album.id} album={album} showRank />
+                ))}
+              </div>
 
-          {view === 'top50' && top50.length === 0 && (
-            <p>No albums have a topRank set yet — add one in albums.json to see it here.</p>
+              {next50.length > 0 && (
+                <>
+                  <div className="albums-tier-divider">
+                    <span>51 – 100</span>
+                  </div>
+                  <div className="albums-grid albums-grid--secondary">
+                    {next50.map((album) => (
+                      <AlbumCard key={album.id} album={album} showRank />
+                    ))}
+                  </div>
+                </>
+              )}
+
+              {top50.length === 0 && (
+                <p>No albums have a topRank set yet — add one in albums.json to see it here.</p>
+              )}
+            </>
           )}
-          {view === 'collection' && filteredCollection.length === 0 && (
-            <p>No albums match that search/filter.</p>
+
+          {view === 'collection' && (
+            <>
+              <div className="albums-grid">
+                {filteredCollection.map((album) => (
+                  <AlbumCard key={album.id} album={album} />
+                ))}
+              </div>
+              {filteredCollection.length === 0 && <p>No albums match that search/filter.</p>}
+            </>
           )}
         </div>
       </div>
