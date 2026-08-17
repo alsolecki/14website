@@ -2,8 +2,14 @@
    content.css (dark translucent panels, Rubik headings, lime-green accent)
    so the page feels native to the rest of the site. Adjust freely. */
 
+/* Widened from 1100px so 4 columns of album cards (260px + gaps) actually
+   fit — matters because the Top 50's sub-tiers are 4/8/12/16 (all
+   multiples of 4), so landing on 4 columns means those tiers fill exact,
+   complete rows with no stretched/orphaned last card. Only the 10-album
+   tier doesn't divide evenly, leaving a 2-card row that stretches modestly
+   instead of a single card ballooning to the full row width. */
 .albums-page .wrapper {
-  max-width: 1100px;
+  max-width: 1200px;
 }
 
 .albums-view-toggle {
@@ -70,11 +76,22 @@
   color: rgb(203, 221, 62);
 }
 
+/* Flexbox rather than CSS Grid: Grid's auto-fit only collapses a column
+   track that's unused across the *entire* grid, so a short trailing row
+   (e.g. the 4-album top tier's lone 4th card wrapping under a row of 3)
+   still renders unstretched — the earlier full row keeps that track
+   "in use". Flex-wrap doesn't have that limitation: each wrapped row is
+   independently filled by its own items, so a row of 1 stretches exactly
+   like a row of 3, matching whatever width is actually available. */
 .albums-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 1.25rem;
   margin: 0 1.5rem 2rem;
+}
+
+.albums-grid .album-card {
+  flex: 1 1 260px;
 }
 
 /* Marks the boundary between the Top 50 and the 51–100 tier below it —
@@ -119,8 +136,17 @@
    smaller and quieter so it reads as "the next tier down" rather than
    competing with it. */
 .albums-grid--secondary {
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 0.85rem;
+}
+
+.albums-grid--secondary .album-card {
+  flex: 1 1 150px;
+  /* Unlike the Top 50 (tuned to land on exact rows), 50 doesn't divide
+     evenly by whatever column count fits here — a trailing row can be
+     just 1-2 cards. Capped rather than left to stretch freely: this
+     tier's whole point is small/dense cards, so letting an orphan
+     balloon toward the full row width would fight that on sight. */
+  max-width: 340px;
 }
 
 .albums-grid--secondary .album-info {
