@@ -1,0 +1,142 @@
+The Strokes - Is This It | 1 | High School
+David Bowie - Heroes | 2 | Young Adult
+Pavement - Slanted and Enchanted | 3 | High School
+Cake - Motorcade of Generosity | 4 | Middle School
+Built to Spill - Perfect From Now On | 5 | High School
+Sparklehorse - Good Morning Spider | 6 | College
+Leonard Cohen - Songs of Leonard Cohen | 7 | Young Adult
+Pixies - Surfer Rosa | 8 | High School
+Weezer - Blue Album | 9 | Middle School
+Radiohead - OK Computer | 10 | Middle School
+# REVIEW: PDF said “balloon mindstate” — corrected to the real title
+De La Soul - Buhloone Mindstate | 11 | High School
+Brian Eno - Another Green World | 12 | Young Adult
+Television - Marquee Moon | 13 | College
+Jamiroquai - Return of the Space Cowboy | 14 | High School
+Silver Jews - The Natural Bridge | 15 | College
+MGMT - Oracular Spectacular | 16 | Young Adult
+Neil Young - After the Gold Rush | 17 | Young Adult
+Guided by Voices - Bee Thousand | 18 | Young Adult
+Stevie Wonder - Songs in the Key of Life | 19 | Young Adult
+of Montreal - Sunlandic Twins | 20 | College
+Fugazi - The Argument | 21 | College
+Talking Heads - Remain in Light | 22 | College
+The Sea and Cake - Oui | 23 | College
+# REVIEW: Couldn't confirm this exact title against Maus's known catalog — verify
+John Maus - Later Than You Think | 24 | Post Claudia
+The Beatles - Help! | 25 | College
+# REVIEW: PDF says “Elliot Smith or either/or” — ambiguous between self-titled and Either/Or, guessed Either/Or
+Elliott Smith - Either/Or | 26 | Young Adult
+Sonic Youth - Daydream Nation | 27 | College
+The Feelies - Crazy Rhythms | 28 | College
+Destroyer - Destroyer's Rubies | 29 | Young Adult
+The Beach Boys - Pet Sounds | 30 | Young Adult
+Joni Mitchell - Blue | 31 | Mid Adult
+# REVIEW: No album title given — guessed self-titled, confirm
+The Delfonics - The Delfonics | 32 | Young Adult
+Tortoise - Tortoise | 33 | College
+Cameron Winter - Heavy Metal | 34 | Post Claudia
+# REVIEW: PDF said “ballad of damaged lemons” — corrected to the real title
+Blonde Redhead - Melody of Certain Damaged Lemons | 35 | High School
+Rage Against the Machine - Evil Empire | 36 | Middle School
+Eddie Harris - Exodus to Jazz | 37 | Mid Adult
+Mitski - Laurel Hell | 38 | Mid Adult
+Mr. Bungle - California | 39 | Middle School
+Sean Nicholas Savage - Flamingo | 40 | Mid Adult
+Mac DeMarco - Salad Days | 41 | Young Adult
+# REVIEW: Fairly obscure — confirm exact title/volume
+Naoya Matsuoka - Heart Cocktail Vol. 2 | 42 | Post Claudia
+# REVIEW: Couldn't confidently split artist vs. title from this — please clarify
+Dante High - Dante High | 43 | Mid Adult
+# REVIEW: Uncertain spelling of the artist name — please confirm
+Pellegrino Zodiaco - Morphe | 44 | Post Claudia
+# REVIEW: No album title given — guessed their best-known LP, confirm
+Unicorns - Who Will Cut Our Hair When We're Gone? | 45 | High School
+Saba - Care for Me | 46 | Mid Adult
+# REVIEW: PDF text was scrambled (“And an airplane over the sea”) — corrected
+Neutral Milk Hotel - In the Aeroplane Over the Sea | 47 | Young Adult
+Kurt Vile - Smoke Ring for My Halo | 48 | Young Adult
+Kraftwerk - The Man-Machine | 49 | Post Claudia
+They Might Be Giants - Lincoln | 50 | Mid Adult
+# REVIEW: Uncertain spelling of the artist name — could be “Machine Girl”, please confirm
+Machine Gum - Conduit |  | Top Bubble;Mid Adult
+Metronomy - The English Riviera |  | Top Bubble;Young Adult
+Sparks - Propaganda |  | Top Bubble;Mid Adult
+Laurie Anderson - Big Science |  | Top Bubble;Post Claudia
+Silkworm - Firewater |  | Top Bubble;Young Adult
+Animal Collective - Sung Tongs |  | Mid Bubble;College
+Electrelane - The Power Out |  | Mid Bubble;Young Adult
+Belle and Sebastian - The Boy with the Arab Strap |  | Mid Bubble;High School
+The Flaming Lips - Yoshimi Battles the Pink Robots |  | Mid Bubble;High School
+Beck - Sea Change |  | Mid Bubble;College
+Frank Black - Frank Black |  | Mid Bubble;High School
+Wilco - A Ghost Is Born |  | Mid Bubble;College
+Ariel Pink's Haunted Graffiti - House Arrest |  | Mid Bubble;College
+Cate Le Bon - Pompeii |  | Mid Bubble;Post Claudia
+Loving - If I Am Only My Thoughts |  | Mid Bubble;Mid Adult
+TOPS - Picture You Staring |  | Mid Bubble;Mid Adult
+# REVIEW: No album title given — guessed self-titled as a placeholder, confirm (well-known LP is “You Can't Hide Your Love Forever”)
+Orange Juice - Orange Juice |  | Low Bubble;Young Adult
+Mission of Burma - Vs. |  | Low Bubble;College
+Yo La Tengo - I Can Hear the Heart Beating as One |  | Low Bubble;College
+Arcade Fire - Funeral |  | Low Bubble;High School
+# REVIEW: No album title given — guessed self-titled, confirm
+The Modern Lovers - The Modern Lovers |  | Low Bubble;Young Adult
+T. Rex - Electric Warrior |  | Low Bubble;College
+The dB's - Stands for deCibels |  | Low Bubble;Young Adult
+Sam Prekop - Who's Your New Professor |  | Low Bubble;College
+The Wrens - The Meadowlands |  | Low Bubble;Young Adult
+Real Estate - Days |  | Low Bubble;Mid Adult
+# REVIEW: Couldn't identify what this refers to at all — please clarify
+Drums - Drums |  | Bubble Out;Mid Adult
+Billy Joel - The Stranger |  | Bubble Out
+Wire - Chairs Missing |  | Bubble Out
+Archers of Loaf - Icky Mettle |  | Bubble Out
+Joy Division - Unknown Pleasures |  | Bubble Out
+# REVIEW: No album title given and this band has several LPs — please specify
+Cool Sounds - Cool Sounds |  | Bubble Out
+Beastie Boys - Ill Communication |  | Bubble Out
+Bill Baird - Sunset: Bright Blue Dream |  | Bubble Out
+Mercury Rev - All Is Dream |  | Bubble Out
+Fountains of Wayne - Fountains of Wayne |  | Bubble Out
+El Guapo - Fake French |  | Bubble Out
+Ozma - Rock and Roll Part Three |  | Bubble Out
+The Rentals - Return of the Rentals |  | Bubble Out
+At the Drive-In - Vaya |  | Bubble Out
+Ugly Casanova - Sharpen Your Teeth |  | Bubble Out
+# REVIEW: No album title given — guessed self-titled as placeholder (well-known LP is “Fear Is on Our Side”), confirm
+I Love You But I've Chosen Darkness - I Love You But I've Chosen Darkness |  | Bubble Out
+# REVIEW: Not confident about this band name/spelling — please confirm
+Tree People - Guilt, Regret and Embarrassment |  | Bubble Out
+Ted Leo and the Pharmacists - Hearts of Oak |  | Bubble Out
+The Mars Volta - De-Loused in the Comatorium |  | Bubble Out
+Pedro the Lion - Control |  | Bubble Out
+Air - Moon Safari |  | Bubble Out
+Stephen Malkmus - Face the Truth |  | Bubble Out
+Wolf Parade - Apologies to the Queen Mary |  | Bubble Out
+Sublime - 40oz. to Freedom |  | Bubble Out;Middle School
+# REVIEW: No album title given and I don't recognize this act confidently — please clarify
+Alumni - Alumni |  | Bubble Out
+Spoon - Girls Can Tell |  | Bubble Out;College
+Nada Surf - High/Low |  | Bubble Out;High School
+The Dandy Warhols - Thirteen Tales from Urban Bohemia |  | Bubble Out;College
+The Movies - In One Era, Out the Other |  | Bubble Out;Young Adult
+Beach House - Beach House |  | Bubble Out;Young Adult
+The White Stripes - White Blood Cells |  | Bubble Out;High School
+Yeah Yeah Yeahs - Fever to Tell |  | Bubble Out;College
+Sufjan Stevens - Greetings from Michigan: The Great Lakes State |  | Bubble Out;College
+The Get Up Kids - Four Minute Mile |  | Bubble Out;High School
+# REVIEW: PDF said “Sabado bake sale” — read as a phonetic mishearing of Sebadoh's “Bakesale”, confirm
+Sebadoh - Bakesale |  | Bubble Out;Young Adult
+Super Furry Animals - Phantom Power |  | Bubble Out;College
+# REVIEW: PDF text was garbled — corrected to the real title
+Stereolab - Transient Random-Noise Bursts with Announcements |  | Bubble Out;College
+# REVIEW: No album title given — guessed their best-known LP, confirm
+The Magnetic Fields - 69 Love Songs |  | Bubble Out;Young Adult
+The Clash - London Calling |  | Bubble Out;College
+The Smashing Pumpkins - Siamese Dream |  | Bubble Out;Middle School
+Ben Folds Five - Whatever and Ever Amen |  | Bubble Out;Middle School
+The Walkmen - Everyone Who Pretended to Like Me Is Gone |  | Bubble Out;High School
+The Halo Benders - God Don't Make No Junk |  | Bubble Out;High School
+Badly Drawn Boy - The Hour of Bewilderbeast |  | Bubble Out;College
+Modest Mouse - The Lonesome Crowded West |  | Bubble Out;High School

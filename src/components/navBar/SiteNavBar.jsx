@@ -40,6 +40,11 @@ const SiteNavBar = () => {
 
                 <li><Link to="https://solecki-exhibit-portfolio.netlify.app/">Exhibits</Link></li>
 
+                {/* NEW: internal route link (unlike the two above, this one
+                    stays within this app rather than pointing at another
+                    site/deploy, so it navigates without a full page reload). */}
+                <li><Link to="/albums">Top 50 Albums</Link></li>
+
                 <li
                     onMouseEnter={() => setDevSubMenuOpen(true)}
                     onMouseLeave={() => setDevSubMenuOpen(false)}

@@ -21,3 +21,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Generated album lookup drafts (scripts/build-albums.mjs) — regenerate as needed
+scripts/output/
+
+# Spotify API credentials for scripts/fetch-spotify-covers.mjs — never commit
+scripts/.env
