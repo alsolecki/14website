@@ -51,6 +51,11 @@
 }
 
 .category-chip {
+  /* Reset browser <button> defaults — these used to be <span>s */
+  background: transparent;
+  font-family: inherit;
+  appearance: none;
+
   font-size: 0.85em;
   color: rgb(170, 170, 170);
   border: rgb(120, 120, 120) solid 1px;

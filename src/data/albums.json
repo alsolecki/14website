@@ -4,7 +4,7 @@
     "title": "Is This It",
     "artist": "The Strokes",
     "year": 2003,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27313f2466b83507515291acce4",
+    "coverUrl": "/albums/covers/the-strokes-is-this-it.jpg",
     "rating": null,
     "topRank": 1,
     "categories": [
@@ -23,7 +23,7 @@
     "title": "“Heroes”",
     "artist": "David Bowie",
     "year": 1977,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273204f41d52743c6a9efd62985",
+    "coverUrl": "/albums/covers/david-bowie-heroes.jpg",
     "rating": null,
     "topRank": 2,
     "categories": [
@@ -42,7 +42,7 @@
     "title": "Slanted and Enchanted",
     "artist": "Pavement",
     "year": 1992,
-    "coverUrl": "https://ia600506.us.archive.org/24/items/mbid-547b6b75-d81d-4d9e-a3a5-c2115224edaf/mbid-547b6b75-d81d-4d9e-a3a5-c2115224edaf-36814960831.jpg",
+    "coverUrl": "/albums/covers/pavement-slanted-and-enchanted.jpg",
     "rating": null,
     "topRank": 3,
     "categories": [
@@ -61,7 +61,7 @@
     "title": "Motorcade of Generosity",
     "artist": "CAKE",
     "year": 1994,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dadd32061ed455719bd196d1",
+    "coverUrl": "/albums/covers/cake-motorcade-of-generosity.jpg",
     "rating": null,
     "topRank": 4,
     "categories": [
@@ -80,7 +80,7 @@
     "title": "Perfect From Now On",
     "artist": "Built to Spill",
     "year": 1996,
-    "coverUrl": "https://dn711000.ca.archive.org/0/items/mbid-a253ff2f-c934-4801-822a-5b476268ba36/mbid-a253ff2f-c934-4801-822a-5b476268ba36-22152232964.jpg",
+    "coverUrl": "/albums/covers/built-to-spill-perfect-from-now-on.jpg",
     "rating": null,
     "topRank": 5,
     "categories": [
@@ -99,7 +99,7 @@
     "title": "Good Morning Spider",
     "artist": "Sparklehorse",
     "year": 1998,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b1b159766e2734a4dc5b3c5f",
+    "coverUrl": "/albums/covers/sparklehorse-good-morning-spider.jpg",
     "rating": null,
     "topRank": 6,
     "categories": [
@@ -118,7 +118,7 @@
     "title": "Songs of Leonard Cohen",
     "artist": "Leonard Cohen",
     "year": 1967,
-    "coverUrl": "https://dn711209.ca.archive.org/0/items/mbid-2fc159df-d05b-44f6-9659-51136c3ba66b/mbid-2fc159df-d05b-44f6-9659-51136c3ba66b-2144230905.jpg",
+    "coverUrl": "/albums/covers/leonard-cohen-songs-of-leonard-cohen.jpg",
     "rating": null,
     "topRank": 7,
     "categories": [
@@ -137,7 +137,7 @@
     "title": "Surfer Rosa",
     "artist": "Pixies",
     "year": 1988,
-    "coverUrl": "https://dn710300.ca.archive.org/0/items/mbid-e78fc156-e0be-4e1a-a668-9338356dfe29/mbid-e78fc156-e0be-4e1a-a668-9338356dfe29-3350498477.jpg",
+    "coverUrl": "/albums/covers/pixies-surfer-rosa.jpg",
     "rating": null,
     "topRank": 8,
     "categories": [
@@ -156,7 +156,7 @@
     "title": "OK Computer",
     "artist": "Radiohead",
     "year": 1997,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+    "coverUrl": "/albums/covers/radiohead-ok-computer.jpg",
     "rating": null,
     "topRank": 10,
     "categories": [
@@ -175,7 +175,7 @@
     "title": "Marquee Moon",
     "artist": "Television",
     "year": 1977,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27318b36d985b0ae01163ca9cf6",
+    "coverUrl": "/albums/covers/television-marquee-moon.jpg",
     "rating": null,
     "topRank": 13,
     "categories": [
@@ -194,7 +194,7 @@
     "title": "The Return of the Space Cowboy",
     "artist": "Jamiroquai",
     "year": 1994,
-    "coverUrl": "https://ia601403.us.archive.org/34/items/mbid-992a052d-2f2e-3276-b9cf-c068b2dafa2a/mbid-992a052d-2f2e-3276-b9cf-c068b2dafa2a-11810687085.jpg",
+    "coverUrl": "/albums/covers/jamiroquai-the-return-of-the-space-cowboy.jpg",
     "rating": null,
     "topRank": 14,
     "categories": [
@@ -213,7 +213,7 @@
     "title": "The Natural Bridge",
     "artist": "Silver Jews",
     "year": 1996,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d3be14a41b75c3fc08f8f11d",
+    "coverUrl": "/albums/covers/silver-jews-the-natural-bridge.jpg",
     "rating": null,
     "topRank": 15,
     "categories": [
@@ -232,7 +232,7 @@
     "title": "Oracular Spectacular",
     "artist": "MGMT",
     "year": 2007,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273abdf7749aeb5229dbf305f03",
+    "coverUrl": "/albums/covers/mgmt-oracular-spectacular.jpg",
     "rating": null,
     "topRank": 16,
     "categories": [
@@ -251,7 +251,7 @@
     "title": "After the Gold Rush",
     "artist": "Neil Young",
     "year": 1970,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a2507ac7f34640ac11b3f31b",
+    "coverUrl": "/albums/covers/neil-young-after-the-gold-rush.jpg",
     "rating": null,
     "topRank": 17,
     "categories": [
@@ -270,7 +270,7 @@
     "title": "Bee Thousand",
     "artist": "Guided by Voices",
     "year": 1994,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bdbe874ff5ea3b896b3880d6",
+    "coverUrl": "/albums/covers/guided-by-voices-bee-thousand.jpg",
     "rating": null,
     "topRank": 18,
     "categories": [
@@ -289,7 +289,7 @@
     "title": "Songs in the Key of Life",
     "artist": "Stevie Wonder",
     "year": 1976,
-    "coverUrl": "https://dn710000.ca.archive.org/0/items/mbid-8bf1769c-b081-4a70-ac6d-9a97c83ad135/mbid-8bf1769c-b081-4a70-ac6d-9a97c83ad135-39110820929.jpg",
+    "coverUrl": "/albums/covers/stevie-wonder-songs-in-the-key-of-life.jpg",
     "rating": null,
     "topRank": 19,
     "categories": [
@@ -308,7 +308,7 @@
     "title": "The Sunlandic Twins",
     "artist": "of Montreal",
     "year": 2005,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c6458c69d33139ff88f2e70d",
+    "coverUrl": "/albums/covers/of-montreal-the-sunlandic-twins.jpg",
     "rating": null,
     "topRank": 20,
     "categories": [
@@ -327,7 +327,7 @@
     "title": "The Argument",
     "artist": "Fugazi",
     "year": 2001,
-    "coverUrl": "https://dn711104.ca.archive.org/0/items/mbid-0e789eca-d5e5-469f-8648-9fe5c1ca68a9/mbid-0e789eca-d5e5-469f-8648-9fe5c1ca68a9-31947820931.jpg",
+    "coverUrl": "/albums/covers/fugazi-the-argument.jpg",
     "rating": null,
     "topRank": 21,
     "categories": [
@@ -346,7 +346,7 @@
     "title": "Remain in Light",
     "artist": "Talking Heads",
     "year": 1980,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e49a405217bda217816f7bf5",
+    "coverUrl": "/albums/covers/talking-heads-remain-in-light.jpg",
     "rating": null,
     "topRank": 22,
     "categories": [
@@ -365,7 +365,7 @@
     "title": "Oui",
     "artist": "The Sea and Cake",
     "year": 2000,
-    "coverUrl": "https://dn721803.ca.archive.org/0/items/mbid-10e20da9-b170-4ffa-8efd-cad37a6e1b5b/mbid-10e20da9-b170-4ffa-8efd-cad37a6e1b5b-34644236885.jpg",
+    "coverUrl": "/albums/covers/the-sea-and-cake-oui.jpg",
     "rating": null,
     "topRank": 23,
     "categories": [
@@ -384,7 +384,7 @@
     "title": "Later Than You Think",
     "artist": "John Maus",
     "year": 2025,
-    "coverUrl": "https://dn721300.ca.archive.org/0/items/mbid-4b67eae5-a5cd-433c-ac79-792b5a5af7a5/mbid-4b67eae5-a5cd-433c-ac79-792b5a5af7a5-43130269367.jpg",
+    "coverUrl": "/albums/covers/john-maus-later-than-you-think.jpg",
     "rating": null,
     "topRank": 24,
     "categories": [
@@ -403,7 +403,7 @@
     "title": "Help!",
     "artist": "The Beatles",
     "year": 1965,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e3e3b64cea45265469d4cafa",
+    "coverUrl": "/albums/covers/the-beatles-help.jpg",
     "rating": null,
     "topRank": 25,
     "categories": [
@@ -422,7 +422,7 @@
     "title": "Either/Or",
     "artist": "Elliott Smith",
     "year": 1997,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732f3552dc6f9e4e2748c5b8ba",
+    "coverUrl": "/albums/covers/elliott-smith-either-or.jpg",
     "rating": null,
     "topRank": 26,
     "categories": [
@@ -441,7 +441,7 @@
     "title": "Daydream Nation",
     "artist": "Sonic Youth",
     "year": 1988,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320f51363b9e2cbd207f158ba",
+    "coverUrl": "/albums/covers/sonic-youth-daydream-nation.jpg",
     "rating": null,
     "topRank": 27,
     "categories": [
@@ -460,7 +460,7 @@
     "title": "Crazy Rhythms",
     "artist": "The Feelies",
     "year": 1980,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734de964b9e028a2d181611595",
+    "coverUrl": "/albums/covers/the-feelies-crazy-rhythms.jpg",
     "rating": null,
     "topRank": 28,
     "categories": [
@@ -479,7 +479,7 @@
     "title": "Destroyer’s Rubies",
     "artist": "Destroyer",
     "year": 2006,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733c6dca8d497f2566d0fc8e95",
+    "coverUrl": "/albums/covers/destroyer-destroyer-s-rubies.jpg",
     "rating": null,
     "topRank": 29,
     "categories": [
@@ -498,7 +498,7 @@
     "title": "Pet Sounds",
     "artist": "The Beach Boys",
     "year": 1966,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350eb0c521d2d3b2f599bff04",
+    "coverUrl": "/albums/covers/the-beach-boys-pet-sounds.jpg",
     "rating": null,
     "topRank": 30,
     "categories": [
@@ -517,7 +517,7 @@
     "title": "Blue",
     "artist": "Joni Mitchell",
     "year": 1971,
-    "coverUrl": "https://dn710604.ca.archive.org/0/items/mbid-243fb7b0-e7f3-42e8-bdfc-a66fd9e23d0e/mbid-243fb7b0-e7f3-42e8-bdfc-a66fd9e23d0e-11322846424.jpg",
+    "coverUrl": "/albums/covers/joni-mitchell-blue.jpg",
     "rating": null,
     "topRank": 31,
     "categories": [
@@ -536,7 +536,7 @@
     "title": "The Delfonics",
     "artist": "The Delfonics",
     "year": 1970,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f606a66ae319776c0dc86ce8",
+    "coverUrl": "/albums/covers/the-delfonics-the-delfonics.jpg",
     "rating": null,
     "topRank": 32,
     "categories": [
@@ -555,7 +555,7 @@
     "title": "Tortoise",
     "artist": "Tortoise",
     "year": 1994,
-    "coverUrl": "https://ia601800.us.archive.org/6/items/mbid-c1b0eae2-6d66-4424-a8b3-5ae7ea20a2b0/mbid-c1b0eae2-6d66-4424-a8b3-5ae7ea20a2b0-8213201002.jpg",
+    "coverUrl": "/albums/covers/tortoise-tortoise.jpg",
     "rating": null,
     "topRank": 33,
     "categories": [
@@ -574,7 +574,7 @@
     "title": "Heavy Metal",
     "artist": "Cameron Winter",
     "year": 2024,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734738aa171569052376f162fe",
+    "coverUrl": "/albums/covers/cameron-winter-heavy-metal.jpg",
     "rating": null,
     "topRank": 34,
     "categories": [
@@ -593,7 +593,7 @@
     "title": "Melody of Certain Damaged Lemons",
     "artist": "Blonde Redhead",
     "year": 2000,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735d03db2dbc21ba11e3e00330",
+    "coverUrl": "/albums/covers/blonde-redhead-melody-of-certain-damaged-lemons.jpg",
     "rating": null,
     "topRank": 35,
     "categories": [
@@ -612,7 +612,7 @@
     "title": "Evil Empire",
     "artist": "Rage Against the Machine",
     "year": 1996,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273053f006079bce979e5fef1e1",
+    "coverUrl": "/albums/covers/rage-against-the-machine-evil-empire.jpg",
     "rating": null,
     "topRank": 36,
     "categories": [
@@ -631,7 +631,7 @@
     "title": "Exodus to Jazz",
     "artist": "Eddie Harris",
     "year": 1961,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f2f636ddfc5a8edcb53b58d3",
+    "coverUrl": "/albums/covers/eddie-harris-exodus-to-jazz.jpg",
     "rating": null,
     "topRank": 37,
     "categories": [
@@ -650,7 +650,7 @@
     "title": "Laurel Hell",
     "artist": "Mitski",
     "year": 2022,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d8041a531487d0e0e4cfb41f",
+    "coverUrl": "/albums/covers/mitski-laurel-hell.jpg",
     "rating": null,
     "topRank": 38,
     "categories": [
@@ -669,7 +669,7 @@
     "title": "California",
     "artist": "Mr. Bungle",
     "year": 1999,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c383eff4368b19f5f05b3108",
+    "coverUrl": "/albums/covers/mr-bungle-california.jpg",
     "rating": null,
     "topRank": 39,
     "categories": [
@@ -688,7 +688,7 @@
     "title": "Flamingo",
     "artist": "Sean Nicholas Savage",
     "year": 2011,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735ce4dbaa0e2f40eb7bb80aa4",
+    "coverUrl": "/albums/covers/sean-nicholas-savage-flamingo.jpg",
     "rating": null,
     "topRank": 40,
     "categories": [
@@ -707,7 +707,7 @@
     "title": "Salad Days",
     "artist": "Mac DeMarco",
     "year": 2014,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738b221f2ccf777ae0d4b0db50",
+    "coverUrl": "/albums/covers/mac-demarco-salad-days.jpg",
     "rating": null,
     "topRank": 41,
     "categories": [
@@ -726,7 +726,7 @@
     "title": "Who Will Cut Our Hair When We're Gone?",
     "artist": "The Unicorns",
     "year": 2003,
-    "coverUrl": "https://dn721903.ca.archive.org/0/items/mbid-5ac0b48f-da4f-3151-96f9-fb41a986b603/mbid-5ac0b48f-da4f-3151-96f9-fb41a986b603-33424835505.jpg",
+    "coverUrl": "/albums/covers/the-unicorns-who-will-cut-our-hair-when-we-re-gone.jpg",
     "rating": null,
     "topRank": 45,
     "categories": [
@@ -745,7 +745,7 @@
     "title": "CARE FOR ME",
     "artist": "Saba",
     "year": 2018,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734e40d77b9cd4e59f992eff87",
+    "coverUrl": "/albums/covers/saba-care-for-me.jpg",
     "rating": null,
     "topRank": 46,
     "categories": [
@@ -764,7 +764,7 @@
     "title": "In the Aeroplane Over the Sea",
     "artist": "Neutral Milk Hotel",
     "year": 1998,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bc1e41eed3ddbdfff6f2d74b",
+    "coverUrl": "/albums/covers/neutral-milk-hotel-in-the-aeroplane-over-the-sea.jpg",
     "rating": null,
     "topRank": 47,
     "categories": [
@@ -783,7 +783,7 @@
     "title": "Smoke Ring for My Halo",
     "artist": "Kurt Vile",
     "year": 2011,
-    "coverUrl": "https://dn711005.ca.archive.org/0/items/mbid-60eb5181-98aa-4845-8492-e5dfc144ef71/mbid-60eb5181-98aa-4845-8492-e5dfc144ef71-15911362429.jpg",
+    "coverUrl": "/albums/covers/kurt-vile-smoke-ring-for-my-halo.jpg",
     "rating": null,
     "topRank": 48,
     "categories": [
@@ -802,7 +802,7 @@
     "title": "The Man-Machine",
     "artist": "Kraftwerk",
     "year": 1978,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e4c3295cd6464ed5bc0f6c2c",
+    "coverUrl": "/albums/covers/kraftwerk-the-man-machine.jpg",
     "rating": null,
     "topRank": 49,
     "categories": [
@@ -821,7 +821,7 @@
     "title": "Lincoln",
     "artist": "They Might Be Giants",
     "year": 1988,
-    "coverUrl": "https://dn710707.ca.archive.org/0/items/mbid-3ff2bdd4-cdac-425c-a5db-e38e9ccd3bca/mbid-3ff2bdd4-cdac-425c-a5db-e38e9ccd3bca-44047034505.png",
+    "coverUrl": "/albums/covers/they-might-be-giants-lincoln.jpg",
     "rating": null,
     "topRank": 50,
     "categories": [
@@ -840,7 +840,7 @@
     "title": "The English Riviera",
     "artist": "Metronomy",
     "year": 2011,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ca7d89456553e4bbbf3c981",
+    "coverUrl": "/albums/covers/metronomy-the-english-riviera.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -860,7 +860,7 @@
     "title": "Propaganda",
     "artist": "Sparks",
     "year": 1974,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733519a80d3768863e57eaeb31",
+    "coverUrl": "/albums/covers/sparks-propaganda.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -880,7 +880,7 @@
     "title": "Big Science",
     "artist": "Laurie Anderson",
     "year": 1982,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273588b07fde7427a6b8e2614fe",
+    "coverUrl": "/albums/covers/laurie-anderson-big-science.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -900,7 +900,7 @@
     "title": "Firewater",
     "artist": "Silkworm",
     "year": 1996,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f8412c14f8b62f5183fdd71c",
+    "coverUrl": "/albums/covers/silkworm-firewater.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -920,7 +920,7 @@
     "title": "Sung Tongs",
     "artist": "Animal Collective",
     "year": 2004,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27302ed9d8a9c8d138641861c1b",
+    "coverUrl": "/albums/covers/animal-collective-sung-tongs.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -940,7 +940,7 @@
     "title": "The Power Out",
     "artist": "Electrelane",
     "year": 2004,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27300e4decab546af050b8ded05",
+    "coverUrl": "/albums/covers/electrelane-the-power-out.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -960,7 +960,7 @@
     "title": "The Boy With the Arab Strap",
     "artist": "Belle & Sebastian",
     "year": 1998,
-    "coverUrl": "https://ia600808.us.archive.org/11/items/mbid-ea7b829c-3de6-33a6-8303-7101b3e669c6/mbid-ea7b829c-3de6-33a6-8303-7101b3e669c6-5806412500.jpg",
+    "coverUrl": "/albums/covers/belle-sebastian-the-boy-with-the-arab-strap.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -980,7 +980,7 @@
     "title": "Yoshimi Battles the Pink Robots",
     "artist": "The Flaming Lips",
     "year": 2002,
-    "coverUrl": "https://dn710707.ca.archive.org/0/items/mbid-5ee8b734-e29a-36d9-9913-3319e21b5444/mbid-5ee8b734-e29a-36d9-9913-3319e21b5444-2572175401.jpg",
+    "coverUrl": "/albums/covers/the-flaming-lips-yoshimi-battles-the-pink-robots.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1000,7 +1000,7 @@
     "title": "Sea Change",
     "artist": "Beck",
     "year": 2002,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e7fc5b50ff71f92809db9d79",
+    "coverUrl": "/albums/covers/beck-sea-change.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1020,7 +1020,7 @@
     "title": "Frank Black",
     "artist": "Frank Black",
     "year": 1993,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736665eaa6df0396174cbfc916",
+    "coverUrl": "/albums/covers/frank-black-frank-black.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1040,7 +1040,7 @@
     "title": "A Ghost Is Born",
     "artist": "Wilco",
     "year": 2005,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cc48fe77912cd73e98d7612f",
+    "coverUrl": "/albums/covers/wilco-a-ghost-is-born.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1060,7 +1060,7 @@
     "title": "House Arrest",
     "artist": "Ariel Pink’s Haunted Graffiti",
     "year": 2002,
-    "coverUrl": "https://dn721806.ca.archive.org/0/items/mbid-8186dc83-c885-4dcc-a4b0-3935c79c496c/mbid-8186dc83-c885-4dcc-a4b0-3935c79c496c-42158796471.jpg",
+    "coverUrl": "/albums/covers/ariel-pink-s-haunted-graffiti-house-arrest.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1080,7 +1080,7 @@
     "title": "Pompeii",
     "artist": "Cate Le Bon",
     "year": 2022,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27361ea5f5dad6699eafd00b71f",
+    "coverUrl": "/albums/covers/cate-le-bon-pompeii.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1100,7 +1100,7 @@
     "title": "If I Am Only My Thoughts",
     "artist": "Loving",
     "year": 2020,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d875b62508f3c29ca2146f11",
+    "coverUrl": "/albums/covers/loving-if-i-am-only-my-thoughts.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1120,7 +1120,7 @@
     "title": "Picture You Staring",
     "artist": "TOPS",
     "year": 2014,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f2f978160a43c037297075af",
+    "coverUrl": "/albums/covers/tops-picture-you-staring.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1140,7 +1140,7 @@
     "title": "The Orange Juice",
     "artist": "Orange Juice",
     "year": 1984,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273341a47b9de6f523f1969e9a2",
+    "coverUrl": "/albums/covers/orange-juice-the-orange-juice.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1160,7 +1160,7 @@
     "title": "Vs.",
     "artist": "Mission of Burma",
     "year": 1982,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a500dea4cc326f36ba998ef8",
+    "coverUrl": "/albums/covers/mission-of-burma-vs.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1180,7 +1180,7 @@
     "title": "I Can Hear the Heart Beating as One",
     "artist": "Yo La Tengo",
     "year": 1997,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731f00d48ee488c62bc46d2418",
+    "coverUrl": "/albums/covers/yo-la-tengo-i-can-hear-the-heart-beating-as-one.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1200,7 +1200,7 @@
     "title": "Funeral",
     "artist": "Arcade Fire",
     "year": 2004,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737870762a58313ad6f981d664",
+    "coverUrl": "/albums/covers/arcade-fire-funeral.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1220,7 +1220,7 @@
     "title": "The Modern Lovers",
     "artist": "The Modern Lovers",
     "year": 1976,
-    "coverUrl": "https://dn721808.ca.archive.org/0/items/mbid-4071d957-1ac3-3f35-9437-c06d364ea8a3/mbid-4071d957-1ac3-3f35-9437-c06d364ea8a3-9417504826.jpg",
+    "coverUrl": "/albums/covers/the-modern-lovers-the-modern-lovers.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1240,7 +1240,7 @@
     "title": "Electric Warrior",
     "artist": "T. Rex",
     "year": 1971,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273eaf232c7a3e9c9acb9acd51c",
+    "coverUrl": "/albums/covers/t-rex-electric-warrior.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1260,7 +1260,7 @@
     "title": "Stands for deciBels",
     "artist": "The dB’s",
     "year": 1981,
-    "coverUrl": "https://dn721902.ca.archive.org/0/items/mbid-2a08694c-8fff-4d16-9f64-cfda61504e27/mbid-2a08694c-8fff-4d16-9f64-cfda61504e27-43874540128.jpg",
+    "coverUrl": "/albums/covers/the-db-s-stands-for-decibels.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1280,7 +1280,7 @@
     "title": "Who's Your New Professor",
     "artist": "Sam Prekop",
     "year": 2005,
-    "coverUrl": "https://ia600808.us.archive.org/22/items/mbid-2ad2ffda-12d6-4bb8-85cd-bcea25426c64/mbid-2ad2ffda-12d6-4bb8-85cd-bcea25426c64-21912333296.jpg",
+    "coverUrl": "/albums/covers/sam-prekop-who-s-your-new-professor.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1340,7 +1340,7 @@
     "title": "The Stranger",
     "artist": "Billy Joel",
     "year": 1977,
-    "coverUrl": "https://dn710807.ca.archive.org/0/items/mbid-cd0946e3-d1ac-4e2c-87e5-57eafec05e7d/mbid-cd0946e3-d1ac-4e2c-87e5-57eafec05e7d-11232338992.jpg",
+    "coverUrl": "/albums/covers/billy-joel-the-stranger.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1359,7 +1359,7 @@
     "title": "Chairs Missing",
     "artist": "Wire",
     "year": 1978,
-    "coverUrl": "https://dn721808.ca.archive.org/0/items/mbid-51c51799-84aa-4fec-bd37-6319963b21f9/mbid-51c51799-84aa-4fec-bd37-6319963b21f9-39959233147.jpg",
+    "coverUrl": "/albums/covers/wire-chairs-missing.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1378,7 +1378,7 @@
     "title": "Icky Mettle",
     "artist": "Archers of Loaf",
     "year": 1993,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27399221ebf6a55fb1433709cb1",
+    "coverUrl": "/albums/covers/archers-of-loaf-icky-mettle.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1397,7 +1397,7 @@
     "title": "Unknown Pleasures",
     "artist": "Joy Division",
     "year": 1979,
-    "coverUrl": "https://ia600900.us.archive.org/27/items/mbid-c619a467-2f82-4618-9cc3-d5a0ce917756/mbid-c619a467-2f82-4618-9cc3-d5a0ce917756-41281267244.jpg",
+    "coverUrl": "/albums/covers/joy-division-unknown-pleasures.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1416,7 +1416,7 @@
     "title": "Ill Communication",
     "artist": "Beastie Boys",
     "year": 1994,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273436a305db8bd85b820da3e5a",
+    "coverUrl": "/albums/covers/beastie-boys-ill-communication.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1435,7 +1435,7 @@
     "title": "All Is Dream",
     "artist": "Mercury Rev",
     "year": 2001,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ea4a809945577485a4f67e25",
+    "coverUrl": "/albums/covers/mercury-rev-all-is-dream.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1454,7 +1454,7 @@
     "title": "Fountains of Wayne",
     "artist": "Fountains of Wayne",
     "year": 1996,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273442b4cf01d16090a3a2bdf0b",
+    "coverUrl": "/albums/covers/fountains-of-wayne-fountains-of-wayne.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1473,7 +1473,7 @@
     "title": "Fake French",
     "artist": "El Guapo",
     "year": 2003,
-    "coverUrl": "https://dn721806.ca.archive.org/0/items/mbid-226a271a-d089-46eb-8f00-230ab3adde5b/mbid-226a271a-d089-46eb-8f00-230ab3adde5b-28836147392.jpg",
+    "coverUrl": "/albums/covers/el-guapo-fake-french.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1511,7 +1511,7 @@
     "title": "Return of The Rentals",
     "artist": "The Rentals",
     "year": 1995,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a3302363c1256a75043a20a",
+    "coverUrl": "/albums/covers/the-rentals-return-of-the-rentals.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1530,7 +1530,7 @@
     "title": "Vaya",
     "artist": "At the Drive‐In",
     "year": 1999,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e665daffc5210317de18043",
+    "coverUrl": "/albums/covers/at-the-drive-in-vaya.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1549,7 +1549,7 @@
     "title": "Sharpen Your Teeth",
     "artist": "Ugly Casanova",
     "year": 2002,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aab82e50cc38785b341ea020",
+    "coverUrl": "/albums/covers/ugly-casanova-sharpen-your-teeth.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1568,7 +1568,7 @@
     "title": "I Love You but I've Chosen Darkness",
     "artist": "I Love You but I’ve Chosen Darkness",
     "year": 2003,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739c0c7ef8c1d830abef02f39c",
+    "coverUrl": "/albums/covers/i-love-you-but-i-ve-chosen-darkness-i-love-you-but-i-ve-chosen-darkness.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1587,7 +1587,7 @@
     "title": "Hearts of Oak",
     "artist": "Ted Leo and the Pharmacists",
     "year": 2003,
-    "coverUrl": "https://dn710805.ca.archive.org/0/items/mbid-8a94e4db-6ae2-4ff8-968d-0ca2884e7253/mbid-8a94e4db-6ae2-4ff8-968d-0ca2884e7253-17256841802.jpg",
+    "coverUrl": "/albums/covers/ted-leo-and-the-pharmacists-hearts-of-oak.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1606,7 +1606,7 @@
     "title": "De‐Loused in the Comatorium",
     "artist": "The Mars Volta",
     "year": 2003,
-    "coverUrl": "https://dn710301.ca.archive.org/0/items/mbid-78d49ab6-02fc-4542-8b3d-abdcb8838cb0/mbid-78d49ab6-02fc-4542-8b3d-abdcb8838cb0-18721181872.jpg",
+    "coverUrl": "/albums/covers/the-mars-volta-de-loused-in-the-comatorium.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1625,7 +1625,7 @@
     "title": "Control",
     "artist": "Pedro the Lion",
     "year": 2002,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e001e1438437cc9de5b64aab",
+    "coverUrl": "/albums/covers/pedro-the-lion-control.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1644,7 +1644,7 @@
     "title": "Moon Safari",
     "artist": "Air",
     "year": 1998,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737f4dc15877a3c43f611a2709",
+    "coverUrl": "/albums/covers/air-moon-safari.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1663,7 +1663,7 @@
     "title": "Face the Truth",
     "artist": "Stephen Malkmus",
     "year": 2005,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732b49070a930411915772a6a2",
+    "coverUrl": "/albums/covers/stephen-malkmus-face-the-truth.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1682,7 +1682,7 @@
     "title": "Apologies to the Queen Mary",
     "artist": "Wolf Parade",
     "year": 2005,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739f8ddfbf374df9eed7da21f0",
+    "coverUrl": "/albums/covers/wolf-parade-apologies-to-the-queen-mary.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1701,7 +1701,7 @@
     "title": "Girls Can Tell",
     "artist": "Spoon",
     "year": 2001,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f6087e1308518847564b7eb0",
+    "coverUrl": "/albums/covers/spoon-girls-can-tell.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1722,7 +1722,7 @@
     "title": "High/Low",
     "artist": "Nada Surf",
     "year": 1996,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af01617e24d88a6359eb33fd",
+    "coverUrl": "/albums/covers/nada-surf-high-low.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1742,7 +1742,7 @@
     "title": "Thirteen Tales From Urban Bohemia",
     "artist": "The Dandy Warhols",
     "year": 2000,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739087219d9eeb22ad7a88c2c8",
+    "coverUrl": "/albums/covers/the-dandy-warhols-thirteen-tales-from-urban-bohemia.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1762,7 +1762,7 @@
     "title": "In One Era Out the Other",
     "artist": "The Movies",
     "year": 2003,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731118f8112d7cd5583cebabd6",
+    "coverUrl": "/albums/covers/the-movies-in-one-era-out-the-other.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1782,7 +1782,7 @@
     "title": "Beach House",
     "artist": "Beach House",
     "year": 2006,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27369d8e3478a4964cf7219f3da",
+    "coverUrl": "/albums/covers/beach-house-beach-house.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1802,7 +1802,7 @@
     "title": "White Blood Cells",
     "artist": "The White Stripes",
     "year": 2001,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273033dbfae219de887bd94952a",
+    "coverUrl": "/albums/covers/the-white-stripes-white-blood-cells.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1822,7 +1822,7 @@
     "title": "Fever to Tell",
     "artist": "Yeah Yeah Yeahs",
     "year": 2003,
-    "coverUrl": "https://dn710908.ca.archive.org/0/items/mbid-ce74eeee-8e30-34db-addd-5ea135500e2e/mbid-ce74eeee-8e30-34db-addd-5ea135500e2e-5835206005.jpg",
+    "coverUrl": "/albums/covers/yeah-yeah-yeahs-fever-to-tell.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1842,7 +1842,7 @@
     "title": "Four Minute Mile",
     "artist": "The Get Up Kids",
     "year": 1997,
-    "coverUrl": "https://dn710807.ca.archive.org/0/items/mbid-0ce252db-dded-43b5-8dfd-d060ebf01b89/mbid-0ce252db-dded-43b5-8dfd-d060ebf01b89-3366911754.jpg",
+    "coverUrl": "/albums/covers/the-get-up-kids-four-minute-mile.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1862,7 +1862,7 @@
     "title": "Bakesale",
     "artist": "Sebadoh",
     "year": 1994,
-    "coverUrl": "https://dn721201.ca.archive.org/0/items/mbid-a4fb6af6-2b82-4b6f-b153-fe8e6c222bcc/mbid-a4fb6af6-2b82-4b6f-b153-fe8e6c222bcc-22463472602.jpg",
+    "coverUrl": "/albums/covers/sebadoh-bakesale.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1882,7 +1882,7 @@
     "title": "Phantom Power",
     "artist": "Super Furry Animals",
     "year": 2003,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311c7d9475ec777216b0c4e7b",
+    "coverUrl": "/albums/covers/super-furry-animals-phantom-power.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1902,7 +1902,7 @@
     "title": "Transient Random‐Noise Bursts With Announcements",
     "artist": "Stereolab",
     "year": 1993,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27336d122a5fdce2509d72ce49a",
+    "coverUrl": "/albums/covers/stereolab-transient-random-noise-bursts-with-announcements.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1922,7 +1922,7 @@
     "title": "69 Love Songs",
     "artist": "The Magnetic Fields",
     "year": 1999,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273206de07d4ccc1b14fbcb45df",
+    "coverUrl": "/albums/covers/the-magnetic-fields-69-love-songs.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1942,7 +1942,7 @@
     "title": "London Calling",
     "artist": "The Clash",
     "year": 1979,
-    "coverUrl": "https://dn710806.ca.archive.org/0/items/mbid-efc61929-387e-42a9-8194-caccdca7012e/mbid-efc61929-387e-42a9-8194-caccdca7012e-1978576697.jpg",
+    "coverUrl": "/albums/covers/the-clash-london-calling.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1962,7 +1962,7 @@
     "title": "Siamese Dream",
     "artist": "The Smashing Pumpkins",
     "year": 1993,
-    "coverUrl": "https://ia601400.us.archive.org/34/items/mbid-c8499dc3-843e-473e-9672-9ee95ec9d694/mbid-c8499dc3-843e-473e-9672-9ee95ec9d694-38221046992.jpg",
+    "coverUrl": "/albums/covers/the-smashing-pumpkins-siamese-dream.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -1982,7 +1982,7 @@
     "title": "Whatever and Ever Amen",
     "artist": "Ben Folds Five",
     "year": 1997,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27398dc5ccf21dd6bc171962cb9",
+    "coverUrl": "/albums/covers/ben-folds-five-whatever-and-ever-amen.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -2002,7 +2002,7 @@
     "title": "Everyone Who Pretended to Like Me Is Gone",
     "artist": "The Walkmen",
     "year": 2002,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a39b2ffd81fa1735eb88d791",
+    "coverUrl": "/albums/covers/the-walkmen-everyone-who-pretended-to-like-me-is-gone.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -2022,7 +2022,7 @@
     "title": "God Don’t Make No Junk",
     "artist": "The Halo Benders",
     "year": 1994,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734257e6a3c8ac61422c1547ea",
+    "coverUrl": "/albums/covers/the-halo-benders-god-don-t-make-no-junk.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -2042,7 +2042,7 @@
     "title": "The Hour of Bewilderbeast",
     "artist": "Badly Drawn Boy",
     "year": 2000,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273254f5b9a048c746142be98bc",
+    "coverUrl": "/albums/covers/badly-drawn-boy-the-hour-of-bewilderbeast.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -2062,7 +2062,7 @@
     "title": "The Lonesome Crowded West",
     "artist": "Modest Mouse",
     "year": 1997,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736d36f5f881bb591a529e259b",
+    "coverUrl": "/albums/covers/modest-mouse-the-lonesome-crowded-west.jpg",
     "rating": null,
     "topRank": null,
     "categories": [
@@ -2082,7 +2082,7 @@
     "title": "Blue Album",
     "artist": "Weezer",
     "year": 1994,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de08e8e07eda87fa0066cd3a",
+    "coverUrl": "/albums/covers/weezer-blue-album.jpg",
     "rating": null,
     "topRank": 9,
     "categories": [
@@ -2101,7 +2101,7 @@
     "title": "Buhloone Mindstate",
     "artist": "De La Soul",
     "year": 1993,
-    "coverUrl": "https://dn711005.ca.archive.org/0/items/mbid-8db21467-c1b9-40dd-88f0-109ab6cd9bd8/mbid-8db21467-c1b9-40dd-88f0-109ab6cd9bd8-40010489103.jpg",
+    "coverUrl": "/albums/covers/de-la-soul-buhloone-mindstate.jpg",
     "rating": null,
     "topRank": 11,
     "categories": [
@@ -2120,7 +2120,7 @@
     "title": "Another Green World",
     "artist": "Brian Eno",
     "year": 1975,
-    "coverUrl": "https://ia600500.us.archive.org/22/items/mbid-47e5f695-0704-44fe-a803-b6de96523d5b/mbid-47e5f695-0704-44fe-a803-b6de96523d5b-30382229179.jpg",
+    "coverUrl": "/albums/covers/brian-eno-another-green-world.jpg",
     "rating": null,
     "topRank": 12,
     "categories": [
@@ -2139,7 +2139,7 @@
     "title": "Portamento",
     "artist": "The Drums",
     "year": 2011,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734c27d14a19e67dac23661031",
+    "coverUrl": "/albums/covers/the-drums-portamento.jpg",
     "rating": null,
     "topRank": null,
     "categories": [

@@ -12,40 +12,55 @@ const byTopRank = (a, b) => {
   return a.topRank - b.topRank
 }
 
-const AlbumCard = ({ album, showRank }) => (
-  <div className="album-card">
-    {showRank && album.topRank != null && (
-      <div className="album-rank">#{album.topRank}</div>
-    )}
-    <div className="album-cover">
-      {album.coverUrl ? (
-        <img src={album.coverUrl} alt={`${album.title} cover art`} />
-      ) : (
-        <div className="album-cover-placeholder">{album.title[0]}</div>
+const AlbumCard = ({ album, showRank }) => {
+  // Covers are hotlinked from Spotify's CDN, which is generally stable but
+  // not guaranteed — if a URL ever 404s, fall back to the same letter
+  // placeholder used for albums that never had a coverUrl at all, rather
+  // than showing a broken-image icon.
+  const [coverFailed, setCoverFailed] = useState(false)
+  const showCover = album.coverUrl && !coverFailed
+
+  return (
+    <div className="album-card">
+      {showRank && album.topRank != null && (
+        <div className="album-rank">#{album.topRank}</div>
       )}
-    </div>
-    <div className="album-info">
-      <h3>{album.title}</h3>
-      <h4>{album.artist} &middot; {album.year}</h4>
-      {album.categories?.length > 0 && (
-        <div className="album-tags">
-          {album.categories.map((tag) => (
-            <span className="album-tag" key={tag}>{tag}</span>
-          ))}
-        </div>
-      )}
-      {album.notes && <p className="album-notes">{album.notes}</p>}
-      <div className="album-links">
-        {album.links?.spotify && (
-          <a href={album.links.spotify} target="_blank" rel="noreferrer">Spotify</a>
-        )}
-        {album.links?.discogs && (
-          <a href={album.links.discogs} target="_blank" rel="noreferrer">Discogs</a>
+      <div className="album-cover">
+        {showCover ? (
+          <img
+            src={album.coverUrl}
+            alt={`${album.title} cover art`}
+            loading="lazy"
+            decoding="async"
+            onError={() => setCoverFailed(true)}
+          />
+        ) : (
+          <div className="album-cover-placeholder">{album.title[0]}</div>
         )}
       </div>
+      <div className="album-info">
+        <h3>{album.title}</h3>
+        <h4>{album.artist} &middot; {album.year}</h4>
+        {album.categories?.length > 0 && (
+          <div className="album-tags">
+            {album.categories.map((tag) => (
+              <span className="album-tag" key={tag}>{tag}</span>
+            ))}
+          </div>
+        )}
+        {album.notes && <p className="album-notes">{album.notes}</p>}
+        <div className="album-links">
+          {album.links?.spotify && (
+            <a href={album.links.spotify} target="_blank" rel="noreferrer">Spotify</a>
+          )}
+          {album.links?.discogs && (
+            <a href={album.links.discogs} target="_blank" rel="noreferrer">Discogs</a>
+          )}
+        </div>
+      </div>
     </div>
-  </div>
-)
+  )
+}
 
 const AlbumsPage = () => {
   const [view, setView] = useState('top50') // 'top50' | 'collection'
@@ -105,20 +120,24 @@ const AlbumsPage = () => {
                 onChange={(e) => setSearch(e.target.value)}
               />
               <div className="category-chips">
-                <span
+                <button
+                  type="button"
                   className={`category-chip ${activeCategory === null ? 'active' : ''}`}
+                  aria-pressed={activeCategory === null}
                   onClick={() => setActiveCategory(null)}
                 >
                   All
-                </span>
+                </button>
                 {CATEGORIES.map((cat) => (
-                  <span
+                  <button
+                    type="button"
                     key={cat}
                     className={`category-chip ${activeCategory === cat ? 'active' : ''}`}
+                    aria-pressed={activeCategory === cat}
                     onClick={() => setActiveCategory(cat)}
                   >
                     {cat}
-                  </span>
+                  </button>
                 ))}
               </div>
             </div>
