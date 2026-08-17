@@ -12,6 +12,30 @@ const byTopRank = (a, b) => {
   return a.topRank - b.topRank
 }
 
+// The Top 50's original sub-tiers (from the source ranking doc): 4, then 8,
+// then 10, then 12, then 16 — cumulative rank cutoffs 4/12/22/34/50. These
+// are positional (first N ranks, next N ranks, ...), not tied to which
+// album occupies a given slot, so they stay valid even as individual ranks
+// get reassigned.
+const TOP50_TIER_BREAKS = [4, 12, 22, 34, 50]
+
+// Buckets an already rank-sorted list into those tiers. The first bucket
+// gets no label (it's the top of the page — a "1 – 4" header right above
+// rank #1 would be redundant); every bucket after that is labeled with its
+// rank range, same convention as the "51 – 100" break below it.
+const splitIntoTiers = (sortedAlbums, breaks) => {
+  const tiers = []
+  let start = 0
+  for (const end of breaks) {
+    const albums = sortedAlbums.filter((a) => a.topRank > start && a.topRank <= end)
+    if (albums.length > 0) {
+      tiers.push({ label: start === 0 ? null : `${start + 1} – ${end}`, albums })
+    }
+    start = end
+  }
+  return tiers
+}
+
 const AlbumCard = ({ album, showRank }) => {
   // Covers are hotlinked from Spotify's CDN, which is generally stable but
   // not guaranteed — if a URL ever 404s, fall back to the same letter
@@ -79,6 +103,7 @@ const AlbumsPage = () => {
     () => [...albumsData].filter((a) => a.topRank != null && a.topRank > 50).sort(byTopRank),
     []
   )
+  const top50Tiers = useMemo(() => splitIntoTiers(top50, TOP50_TIER_BREAKS), [top50])
 
   const filteredCollection = useMemo(() => {
     const term = search.trim().toLowerCase()
@@ -153,11 +178,20 @@ const AlbumsPage = () => {
 
           {view === 'top100' && (
             <>
-              <div className="albums-grid">
-                {top50.map((album) => (
-                  <AlbumCard key={album.id} album={album} showRank />
-                ))}
-              </div>
+              {top50Tiers.map((tier, i) => (
+                <React.Fragment key={i}>
+                  {tier.label && (
+                    <div className="albums-tier-divider albums-tier-divider--minor">
+                      <span>{tier.label}</span>
+                    </div>
+                  )}
+                  <div className="albums-grid">
+                    {tier.albums.map((album) => (
+                      <AlbumCard key={album.id} album={album} showRank />
+                    ))}
+                  </div>
+                </React.Fragment>
+              ))}
 
               {next50.length > 0 && (
                 <>
